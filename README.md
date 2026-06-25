@@ -415,11 +415,8 @@ ros2_rover/src/
 │   │       ├── spawn.launch.py      ← Spawns rover + ros2_control controllers
 │   │       └── cmd_vel.launch.py    ← Launches vel_parser + motors_command_parser
 │   ├── worlds/
-│   │   ├── mars.world               ← Mars terrain world (SDF)
-│   │   ├── moon.world
-│   │   ├── forest.world
-│   │   ├── low_moon.world
-│   │   └── curiosity.world
+│   │   ├── mars.world ← Mars terrain world (SDF)
+|   |   |           
 │   ├── models/
 │   │   ├── mars_terrain/            ← Mars terrain mesh + reddish-sand texture
 │   │   ├── crater/                  ← Crater 3D model
@@ -427,7 +424,6 @@ ros2_rover/src/
 │   │   ├── jaggedrock/              ← Jagged rock model
 │   │   ├── rock9/                   ← Rock model
 │   │   ├── rockformation/           ← Rock cluster model
-│   │   ├── moon/                    ← Moon heightmap + textures
 │   │   └── terrain/                 ← Generic terrain
 │   ├── src/
 │   │   ├── motors_command_parser_node.cpp  ← Translates MotorsCommand → ros2_control
@@ -797,27 +793,6 @@ ros2 topic hz /odometry/filtered
 colcon build --packages-select rover_msgs
 source install/setup.bash
 colcon build --symlink-install
-```
-
----
-
-## Other Simulation Worlds
-
-```bash
-# Mars (primary — red rocky terrain, craters, rock formations)
-ros2 launch rover_gazebo mars.launch.py
-
-# Moon (grey regolith, heightmap-based terrain)
-ros2 launch rover_gazebo moon.launch.py
-
-# Low-gravity Moon
-ros2 launch rover_gazebo low_moon.launch.py
-
-# Forest (Earth-like vegetation)
-ros2 launch rover_gazebo forest.launch.py
-
-# Curiosity path (NASA Curiosity rover's actual terrain path mesh)
-ros2 launch rover_gazebo curiosity.launch.py
 ```
 
 ---
