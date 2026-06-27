@@ -11,9 +11,7 @@ bt_navigator:
     navigate_to_pose:
       plugin: "nav2_bt_navigator::NavigateToPoseNavigator"
     navigate_through_poses:
-      plugin: "nav2_bt_navigator::NavigateThroughPosesNavigator"
-      
-    # --- CHANGE THESE TO EMPTY STRINGS TO FORCE SYSTEM FALLBACKS ---
+      plugin: "nav2_bt_navigator::NavigateThroughPosesNavigator"  
     default_nav_to_pose_bt_xml: ""
     default_nav_through_poses_bt_xml: ""
     
@@ -48,7 +46,7 @@ behavior_server:
     local_frame: "odom"
     global_frame: "map"
     robot_base_frame: "base_link"
-    transform_tolerance: 1.0             # <-- FIXED: Lifted latency limit for live SLAM
+    transform_tolerance: 1.0             
     simulate_ahead_time: 2.0
     max_rotational_vel: 1.0
     min_rotational_vel: 0.4
@@ -93,19 +91,19 @@ velocity_smoother:
     min_velocity: [-0.5, 0.0, -2.0]
     max_accel: [2.5, 0.0, 3.2]
     max_decel: [-2.5, 0.0, -3.2]
-    odom_topic: "/odometry/filtered"     # <-- FIXED: Synchronized feedback link
+    odom_topic: "/odometry/filtered"    
     odom_duration: 0.1
     deadband_velocity: [0.0, 0.0, 0.0]
     velocity_timeout: 1.0
 
-collision_monitor:                      # <-- CONSOLIDATED SINGLE BLOCK ONLY
+collision_monitor:                     
   ros__parameters:
-    base_frame_id: "base_link"           # <-- FIXED: Pointing to matching RTAB-Map frame
+    base_frame_id: "base_link"           
     odom_frame_id: "odom"
     cmd_vel_in_topic: "cmd_vel_smoothed"
     cmd_vel_out_topic: "cmd_vel"
     state_topic: "collision_monitor_state"
-    transform_tolerance: 0.5             # Better tolerance overhead for simulation
+    transform_tolerance: 0.5             
     source_timeout: 1.0
     base_shift_correction: true
     stop_pub_timeout: 2.0

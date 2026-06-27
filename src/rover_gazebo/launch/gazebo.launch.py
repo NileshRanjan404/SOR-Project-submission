@@ -1,6 +1,3 @@
-# MIT License
-# Copyright (c) 2023  Miguel Ángel González Santamarta
-
 import os
 from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
@@ -29,7 +26,6 @@ def generate_launch_description():
 
     rviz_config = os.path.join(pkg_path, "rviz", "default.rviz")
 
-    ### ARGS ###
     world = LaunchConfiguration("world")
     world_cmd = DeclareLaunchArgument(
         "world",
@@ -78,7 +74,6 @@ def generate_launch_description():
         description="Nav2 controller (RPP or TEB)",
     )
 
-    ### NODES ###
     rviz_cmd = Node(
         name="rviz",
         package="rviz2",
@@ -101,7 +96,6 @@ def generate_launch_description():
             "/imu@sensor_msgs/msg/Imu[gz.msgs.IMU",
             "/cmd_vel@geometry_msgs/msg/Twist[gz.msgs.Twist",
         ],
-        # 🔥 FIX 1: Explicitly pass the dictionary AFTER the YAML file to ensure overrides
         parameters=[
             os.path.join(get_package_share_directory("rover_gazebo"), "config", "gz_bridge.yaml"),
             {"use_sim_time": True}  
@@ -115,7 +109,6 @@ def generate_launch_description():
         output="screen",
     )
 
-    ### LAUNCHES ###
     gazebo_cmd = GroupAction(
         [
             SetEnvironmentVariable(
@@ -135,7 +128,6 @@ def generate_launch_description():
         ]
     )
 
-    # 🔥 FIX 2: Fixed the string case mismatch ("True" -> "true") for full compatibility
     localization_cmd = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
             os.path.join(pkg_rover_localization, "launch", "localization.launch.py")

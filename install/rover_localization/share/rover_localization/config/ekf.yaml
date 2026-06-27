@@ -3,15 +3,15 @@ ekf_filter_node:
     qos_overrides./odom.publisher.reliability: reliable
     qos_overrides./accel.publisher.reliability: reliable
 
-    frequency: 20.0
-    sensor_timeout: 0.1
+    frequency: 35.0
+    sensor_timeout: 0.2
     use_sim_time: true
 
     two_d_mode: true
 
     # Tight timing offsets to maintain synchronization with Gazebo physics
     transform_time_offset: 0.0
-    transform_timeout: 0.05            # Slightly increased from 0.0 to prevent tf cache drops
+    transform_timeout: 0.1            # Slightly increased from 0.0 to prevent tf cache drops
 
     print_diagnostics: true
     debug: false

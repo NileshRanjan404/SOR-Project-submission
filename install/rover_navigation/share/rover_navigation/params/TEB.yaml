@@ -25,7 +25,6 @@ controller_server:
       cmd_angle_instead_rotvel: true
       wheelbase: 0.55
 
-      # Robot
       max_vel_x_backwards: 0.2
       max_vel_x: 0.3
       max_vel_theta: 0.3

@@ -1,27 +1,5 @@
 <?xml version="1.0" ?>
 
-<!-- # MIT License
-
-# Copyright (c) 2023  Miguel Ángel González Santamarta
-
-# Permission is hereby granted, free of charge, to any person obtaining a copy
-# of this software and associated documentation files (the "Software"), to deal
-# in the Software without restriction, including without limitation the rights
-# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-# copies of the Software, and to permit persons to whom the Software is
-# furnished to do so, subject to the following conditions:
-
-# The above copyright notice and this permission notice shall be included in all
-# copies or substantial portions of the Software.
-
-# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-# SOFTWARE. -->
-
 <robot name="rover"
     xmlns:xacro="http://www.ros.org/wiki/xacro">
 
@@ -186,9 +164,6 @@
     <xacro:body parent="base_link" />
     <xacro:differential parent="base_link" />
 
-    <!-- <xacro:turnbuckle lat_label="left" reflect="1"/>
-    <xacro:turnbuckle lat_label="right" reflect="-1"/> -->
-
     <xacro:rocker parent="base_link" lat_label="left" reflect="1"/>
     <xacro:rocker parent="base_link" lat_label="right" reflect="-1"/>
 
@@ -201,13 +176,11 @@
     </xacro:sensor_hokuyo>
 
     <xacro:sensor_imu prefix="imu" parent="base_link">
-        <!-- <origin xyz="-0.32 0 0.05" rpy="0 0.5 0"/> -->
         <origin xyz="0 0 -0.04" rpy="0 0 0"/>
     </xacro:sensor_imu>
 
     <xacro:sensor_asus_xtion prefix="camera" parent="base_link">
         <origin xyz="0.215 0 0.065" rpy="0 0.15 0"/>
-        <!-- <origin xyz="0.212 0 0.065" rpy="0 0 0"/> -->
     </xacro:sensor_asus_xtion>
 
     <!-- wheels -->

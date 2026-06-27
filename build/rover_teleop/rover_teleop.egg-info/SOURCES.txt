@@ -9,7 +9,6 @@ setup.py
 ../../build/rover_teleop/rover_teleop.egg-info/top_level.txt
 ../../build/rover_teleop/rover_teleop.egg-info/zip-safe
 config/ps3.yaml
-launch/joy_teleop.launch.py
 resource/rover_teleop
 rover_teleop/__init__.py
 rover_teleop/teleop_keyboard_node.py

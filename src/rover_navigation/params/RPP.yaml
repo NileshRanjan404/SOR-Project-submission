@@ -1,14 +1,14 @@
 controller_server:
   ros__parameters:
     use_sim_time: true
-    controller_frequency: 10.0      # Lowered from 20.0 to fix your 200Hz simulation clock lag errors
+    controller_frequency: 10.0      
     costmap_update_timeout: 0.30
     
     # --- VELOCITY THRESHOLDS ---
-    min_x_velocity_threshold: 0.05  # Set a clean floor (5cm/s) so it doesn't trick the progress checker
-    min_y_velocity_threshold: 0.5   # Banned for non-holonomic (Ackermann) robots
+    min_x_velocity_threshold: 0.05  
+    min_y_velocity_threshold: 0.001   
     min_theta_velocity_threshold: 0.01
-    failure_tolerance: 0.5          # Increased slightly to tolerate slipping on Mars terrain heightmaps
+    failure_tolerance: 0.5          
     
     progress_checker_plugins: ["progress_checker"]
     goal_checker_plugins: ["goal_checker"]
@@ -22,44 +22,44 @@ controller_server:
 
     goal_checker:
       plugin: "nav2_controller::SimpleGoalChecker"
-      xy_goal_tolerance: 0.4        # Match your planner's tolerance bounds
-      yaw_goal_tolerance: 0.5
+      xy_goal_tolerance: 0.15        
+      yaw_goal_tolerance: 0.3
       stateful: true
 
     FollowPath:
       plugin: "nav2_regulated_pure_pursuit_controller::RegulatedPurePursuitController"
-      desired_linear_vel: 0.4       # Give it a slightly higher top speed to carry steering momentum
+      desired_linear_vel: 0.4       
       
       # --- LOOKAHEAD PARAMETERS ---
       lookahead_dist: 0.6
-      min_lookahead_dist: 0.4       # Don't let the carrot get too close or steering will oscillate
+      min_lookahead_dist: 0.4       
       max_lookahead_dist: 1.0
       lookahead_time: 1.5
-      transform_tolerance: 0.1
+      transform_tolerance: 0.5
       use_velocity_scaled_lookahead_dist: true
       
       # --- REVERSING SUPPORT ---
-      allow_reversing: true         # CRITICAL: Let RPP drive backward when Reeds-Shepp tells it to!
+      allow_reversing: true         
       
       # --- APPROACH & SAFETY ---
-      min_approach_linear_velocity: 0.10 # Keep a healthy min speed so steering doesn't stall near goals
+      min_approach_linear_velocity: 0.10 
       approach_velocity_scaling_dist: 0.8
-      use_collision_detection: false # Kept false for now to prevent pointcloud lag from halting movement
+      use_collision_detection: false 
       
       # --- SPEED REGULATION & CURVATURE ---
       use_regulated_linear_velocity_scaling: true
       use_cost_regulated_linear_velocity_scaling: true
       
       # Match your planner constraints! 
-      regulated_linear_scaling_min_radius: 0.45  # Trigger deceleration only on paths tighter than 45cm
-      regulated_linear_scaling_min_speed: 0.15   # Allow scaling down to 15cm/s on tight spots
+      regulated_linear_scaling_min_radius: 0.45  
+      regulated_linear_scaling_min_speed: 0.15   
       
       # --- ROTATION MANDATES ---
-      use_rotate_to_heading: false               # NEVER turn this on for an Ackermann rover
+      use_rotate_to_heading: false               
       rotate_to_heading_angular_vel: 0.0
       max_angular_accel: 3.2
       max_robot_pose_search_dist: 10.0
-      interpolate_curvature_after_goal: false
+      interpolate_curvature_after_goal: true
       cost_scaling_dist: 0.3
       cost_scaling_gain: 1.0
       inflation_cost_scaling_factor: 3.0

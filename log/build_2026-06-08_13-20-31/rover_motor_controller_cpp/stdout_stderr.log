@@ -1,0 +1,110 @@
+[ 11%] [32mBuilding CXX object CMakeFiles/vel_parser_node.dir/src/vel_parser_node_main.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/vel_parser_node.dir/src/motor_controller/vel_parser_node.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/controller_node.dir/src/controller_node_main.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/controller_node.dir/src/lx16a/serial.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/controller_node.dir/src/lx16a/motor_controller.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/controller_node.dir/src/motor_controller/controller_node.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/controller_node.dir/src/lx16a/lx16a.cpp.o[0m
+In file included from [01m[K/usr/include/boost/system/detail/requires_cxx11.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/system/detail/config.hpp:11[m[K,
+                 from [01m[K/usr/include/boost/system/detail/error_category.hpp:13[m[K,
+                 from [01m[K/usr/include/boost/system/detail/error_code.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/system/error_code.hpp:13[m[K,
+                 from [01m[K/usr/include/boost/asio/detail/throw_error.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/asio/detail/impl/posix_event.ipp:23[m[K,
+                 from [01m[K/usr/include/boost/asio/detail/posix_event.hpp:172[m[K,
+                 from [01m[K/usr/include/boost/asio/detail/event.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/asio/execution/blocking_adaptation.hpp:19[m[K,
+                 from [01m[K/usr/include/boost/asio/execution.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/asio/any_completion_executor.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/asio.hpp:20[m[K,
+                 from [01m[K/home/sachin/ros2_rover/src/rover_motor_controller_cpp/include/lx16a/serial.hpp:28[m[K,
+                 from [01m[K/home/sachin/ros2_rover/src/rover_motor_controller_cpp/include/lx16a/lx16a.hpp:33[m[K,
+                 from [01m[K/home/sachin/ros2_rover/src/rover_motor_controller_cpp/src/lx16a/motor_controller.cpp:4[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/system/detail/requires_cxx11.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/system/detail/config.hpp:11[m[K,
+                 from [01m[K/usr/include/boost/system/detail/error_category.hpp:13[m[K,
+                 from [01m[K/usr/include/boost/system/detail/error_code.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/system/error_code.hpp:13[m[K,
+                 from [01m[K/usr/include/boost/asio/detail/throw_error.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/asio/detail/impl/posix_event.ipp:23[m[K,
+                 from [01m[K/usr/include/boost/asio/detail/posix_event.hpp:172[m[K,
+                 from [01m[K/usr/include/boost/asio/detail/event.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/asio/execution/blocking_adaptation.hpp:19[m[K,
+                 from [01m[K/usr/include/boost/asio/execution.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/asio/any_completion_executor.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/asio.hpp:20[m[K,
+                 from [01m[K/home/sachin/ros2_rover/src/rover_motor_controller_cpp/include/lx16a/serial.hpp:28[m[K,
+                 from [01m[K/home/sachin/ros2_rover/src/rover_motor_controller_cpp/include/lx16a/lx16a.hpp:33[m[K,
+                 from [01m[K/home/sachin/ros2_rover/src/rover_motor_controller_cpp/src/lx16a/lx16a.cpp:8[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/system/detail/requires_cxx11.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/system/detail/config.hpp:11[m[K,
+                 from [01m[K/usr/include/boost/system/detail/error_category.hpp:13[m[K,
+                 from [01m[K/usr/include/boost/system/detail/error_code.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/system/error_code.hpp:13[m[K,
+                 from [01m[K/usr/include/boost/asio/detail/throw_error.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/asio/detail/impl/posix_event.ipp:23[m[K,
+                 from [01m[K/usr/include/boost/asio/detail/posix_event.hpp:172[m[K,
+                 from [01m[K/usr/include/boost/asio/detail/event.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/asio/execution/blocking_adaptation.hpp:19[m[K,
+                 from [01m[K/usr/include/boost/asio/execution.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/asio/any_completion_executor.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/asio.hpp:20[m[K,
+                 from [01m[K/home/sachin/ros2_rover/src/rover_motor_controller_cpp/include/lx16a/serial.hpp:28[m[K,
+                 from [01m[K/home/sachin/ros2_rover/src/rover_motor_controller_cpp/src/lx16a/serial.cpp:4[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/system/detail/requires_cxx11.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/system/detail/config.hpp:11[m[K,
+                 from [01m[K/usr/include/boost/system/detail/error_category.hpp:13[m[K,
+                 from [01m[K/usr/include/boost/system/detail/error_code.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/system/error_code.hpp:13[m[K,
+                 from [01m[K/usr/include/boost/asio/detail/throw_error.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/asio/detail/impl/posix_event.ipp:23[m[K,
+                 from [01m[K/usr/include/boost/asio/detail/posix_event.hpp:172[m[K,
+                 from [01m[K/usr/include/boost/asio/detail/event.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/asio/execution/blocking_adaptation.hpp:19[m[K,
+                 from [01m[K/usr/include/boost/asio/execution.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/asio/any_completion_executor.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/asio.hpp:20[m[K,
+                 from [01m[K/home/sachin/ros2_rover/src/rover_motor_controller_cpp/include/lx16a/serial.hpp:28[m[K,
+                 from [01m[K/home/sachin/ros2_rover/src/rover_motor_controller_cpp/include/lx16a/lx16a.hpp:33[m[K,
+                 from [01m[K/home/sachin/ros2_rover/src/rover_motor_controller_cpp/include/lx16a/motor_controller.hpp:31[m[K,
+                 from [01m[K/home/sachin/ros2_rover/src/rover_motor_controller_cpp/include/motor_controller/controller_node.hpp:8[m[K,
+                 from [01m[K/home/sachin/ros2_rover/src/rover_motor_controller_cpp/src/controller_node_main.cpp:3[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[ 88%] [32m[1mLinking CXX executable vel_parser_node[0m
+[ 88%] Built target vel_parser_node
+[100%] [32m[1mLinking CXX executable controller_node[0m
+[100%] Built target controller_node
+-- Install configuration: ""
+-- Installing: /home/sachin/ros2_rover/install/rover_motor_controller_cpp/lib/rover_motor_controller_cpp/controller_node
+-- Set non-toolchain portion of runtime path of "/home/sachin/ros2_rover/install/rover_motor_controller_cpp/lib/rover_motor_controller_cpp/controller_node" to ""
+-- Installing: /home/sachin/ros2_rover/install/rover_motor_controller_cpp/lib/rover_motor_controller_cpp/vel_parser_node
+-- Set non-toolchain portion of runtime path of "/home/sachin/ros2_rover/install/rover_motor_controller_cpp/lib/rover_motor_controller_cpp/vel_parser_node" to ""
+-- Up-to-date: /home/sachin/ros2_rover/install/rover_motor_controller_cpp/share/rover_motor_controller_cpp//launch
+-- Installing: /home/sachin/ros2_rover/install/rover_motor_controller_cpp/share/rover_motor_controller_cpp//launch/motor_controller.launch.py
+-- Up-to-date: /home/sachin/ros2_rover/install/rover_motor_controller_cpp/share/ament_index/resource_index/package_run_dependencies/rover_motor_controller_cpp
+-- Up-to-date: /home/sachin/ros2_rover/install/rover_motor_controller_cpp/share/ament_index/resource_index/parent_prefix_path/rover_motor_controller_cpp
+-- Up-to-date: /home/sachin/ros2_rover/install/rover_motor_controller_cpp/share/rover_motor_controller_cpp/environment/ament_prefix_path.sh
+-- Up-to-date: /home/sachin/ros2_rover/install/rover_motor_controller_cpp/share/rover_motor_controller_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/sachin/ros2_rover/install/rover_motor_controller_cpp/share/rover_motor_controller_cpp/environment/path.sh
+-- Up-to-date: /home/sachin/ros2_rover/install/rover_motor_controller_cpp/share/rover_motor_controller_cpp/environment/path.dsv
+-- Up-to-date: /home/sachin/ros2_rover/install/rover_motor_controller_cpp/share/rover_motor_controller_cpp/local_setup.bash
+-- Up-to-date: /home/sachin/ros2_rover/install/rover_motor_controller_cpp/share/rover_motor_controller_cpp/local_setup.sh
+-- Up-to-date: /home/sachin/ros2_rover/install/rover_motor_controller_cpp/share/rover_motor_controller_cpp/local_setup.zsh
+-- Up-to-date: /home/sachin/ros2_rover/install/rover_motor_controller_cpp/share/rover_motor_controller_cpp/local_setup.dsv
+-- Installing: /home/sachin/ros2_rover/install/rover_motor_controller_cpp/share/rover_motor_controller_cpp/package.dsv
+-- Up-to-date: /home/sachin/ros2_rover/install/rover_motor_controller_cpp/share/ament_index/resource_index/packages/rover_motor_controller_cpp
+-- Up-to-date: /home/sachin/ros2_rover/install/rover_motor_controller_cpp/share/rover_motor_controller_cpp/cmake/rover_motor_controller_cppConfig.cmake
+-- Up-to-date: /home/sachin/ros2_rover/install/rover_motor_controller_cpp/share/rover_motor_controller_cpp/cmake/rover_motor_controller_cppConfig-version.cmake
+-- Up-to-date: /home/sachin/ros2_rover/install/rover_motor_controller_cpp/share/rover_motor_controller_cpp/package.xml
