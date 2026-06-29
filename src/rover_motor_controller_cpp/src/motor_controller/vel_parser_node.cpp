@@ -57,14 +57,47 @@ void VelParserNode::callback(const geometry_msgs::msg::Twist::SharedPtr msg) {
 
   auto motors_command = rover_msgs::msg::MotorsCommand();
 
-  // normalize speed and steering
-  float linear = std::min((float)msg->linear.x, this->linear_limit);
-  float angular = std::min((float)msg->angular.z, this->angular_limit);
-  float speed = sqrt(pow(linear, 2) + pow(angular * this->angular_factor, 2));
+  // ==========================================================
+  // TODO 1 — Process the Incoming Velocity Command
+  //
+  // Objective:
+  // Convert the incoming cmd_vel command into normalized linear
+  // and angular values that can safely be used by the rover.
+  //
+  // What to implement:
+  // • Read the requested linear velocity from msg->linear.x.
+  // • Read the requested steering command from msg->angular.z.
+  // • Clamp both values so they do not exceed the configured
+  //   linear_limit and angular_limit.
+  // • Compute the rover's overall speed by combining the linear
+  //   and angular components.
+  // • If the rover is commanded to move backwards, preserve the
+  //   negative sign of the computed speed.
+  //
+  // Why?
+  // The rover cannot execute commands larger than its physical
+  // limits. Normalizing the incoming command ensures all later
+  // calculations operate within a safe and predictable range.
+  //
+  // Hint:
+  // Useful functions:
+  //   • std::min()
+  //   • sqrt()
+  //   • pow()
+  //
+  // Variables available:
+  //   • msg
+  //   • linear_limit
+  //   • angular_limit
+  //   • angular_factor
+  //
+  // Expected outputs:
+  //   • linear
+  //   • angular
+  //   • speed
+  // ==========================================================
 
-  if (msg->linear.x < 0) {
-    speed *= -1;
-  }
+  // YOUR CODE HERE
 
   float norm_speed = this->normalize(speed, -this->linear_limit,
                                      this->linear_limit, -100, 100);
@@ -123,11 +156,50 @@ std::vector<float> VelParserNode::calculate_velocity(float velocity,
   if (velocity == 0)
     return new_velocity;
 
-  if (abs(radius) <= 5) {
-    // No turning radius, all wheels same speed
-    // Go ahead / Go back
-    new_velocity = {velocity,  velocity,  velocity,
-                    -velocity, -velocity, -velocity};
+if (abs(radius) <= 5) {
+
+    // ==========================================================
+    // TODO 2 — Handle Straight-Line Driving
+    //
+    // Objective:
+    // Compute the wheel velocities when the rover is driving
+    // approximately straight.
+    //
+    // What to implement:
+    // • Check whether the steering command is close to zero.
+    // • Assign the same speed magnitude to all six wheels.
+    // • Remember that the wheels on one side of the rover rotate
+    //   in the opposite direction because of their mounting
+    //   orientation.
+    //
+    // Why?
+    // When driving straight, every wheel should rotate at the
+    // same speed. The only difference is the direction of
+    // rotation required by the wheel configuration.
+    //
+    // Hint:
+    // • Store the computed values inside new_velocity.
+    // • Return six wheel speeds in the following order:
+    //
+    //   Front Left
+    //   Middle Left
+    //   Back Left
+    //   Front Right
+    //   Middle Right
+    //   Back Right
+    //
+    // Example:
+    //
+    //   velocity = 40
+    //
+    //   Left wheels  ->  40
+    //   Right wheels -> -40
+    //
+    // (The sign difference is due to the wheel orientation,
+    // not because the rover is turning.)
+    // ==========================================================
+
+    // YOUR CODE HERE
 
   } else {
     // Get radius in centimeters(MAX_RADIUS(255) to MIN_RADIUS(55))
@@ -220,12 +292,48 @@ std::vector<float> VelParserNode::calculate_target_deg(float radius) {
   float ang10 =
       this->radians_to_deg(atan(this->d2 / (abs(new_radius) - this->d1)));
 
-  if (radius < 0) { // Turn Left
-    angles = {-ang8, -ang7, ang10, ang9};
+  // ==========================================================
+  // TODO 3 — Assign Steering Angles
+  //
+  // Objective:
+  // Assign the steering angle for each steerable wheel using
+  // the angles that were already computed above.
+  //
+  // What to implement:
+  // • If the rover is turning left (radius < 0):
+  //     - The left wheels become the inner wheels.
+  //     - The right wheels become the outer wheels.
+  // • If the rover is turning right:
+  //     - The right wheels become the inner wheels.
+  //     - The left wheels become the outer wheels.
+  //
+  // Why?
+  // During a turn, the inner wheels must steer more sharply than
+  // the outer wheels so that every wheel follows the same
+  // instantaneous turning circle. This reduces wheel slip and
+  // results in smoother steering.
+  //
+  // Hint:
+  // The steering angles have already been calculated:
+  //
+  //   ang7
+  //   ang8
+  //   ang9
+  //   ang10
+  //
+  // Your task is NOT to compute these values again.
+  // Simply assign them to the `angles` vector in the correct
+  // order and with the appropriate sign.
+  //
+  // Return the steering angles in this order:
+  //
+  //   [ Front Left,
+  //     Front Right,
+  //     Back Left,
+  //     Back Right ]
+  // ==========================================================
 
-  } else { // Turn Right
-    angles = {ang7, ang8, -ang9, -ang10};
-  }
+  // YOUR CODE HERE
 
   return angles;
 }
