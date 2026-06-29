@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-acbf0f7466947353ebff.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rover_gazebo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ground_truth_remapper_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ground_truth_remapper_node-7c4f7b890fc8758a4fb6.json",
+					"name" : "ground_truth_remapper_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motors_command_parser_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motors_command_parser_node-a4d1e4963e425acfaf89.json",
+					"name" : "motors_command_parser_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "odometry_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-odometry_node-e4009c9fc975818f3ea5.json",
+					"name" : "odometry_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rover_gazebo_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rover_gazebo_uninstall-7b7e805c67bfc1f16592.json",
+					"name" : "rover_gazebo_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-95e46408b80a932014e4.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/sachin/ros2_rover/build/rover_gazebo",
+		"source" : "/home/sachin/ros2_rover/src/rover_gazebo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

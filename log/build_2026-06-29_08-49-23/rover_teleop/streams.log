@@ -1,0 +1,55 @@
+[1.382s] Invoking command in '/home/sachin/ros2_rover/src/rover_teleop': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.ros2_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/sachin/ros2_rover/build/rover_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sachin/ros2_rover/install/rover_teleop/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.ros2_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rover_teleop build --build-base /home/sachin/ros2_rover/build/rover_teleop/build install --record /home/sachin/ros2_rover/build/rover_teleop/install.log --install-scripts $base/lib/rover_teleop --single-version-externally-managed install_data
+[1.543s] /usr/lib/python3/dist-packages/setuptools/dist.py:744: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[1.543s] !!
+[1.543s] 
+[1.543s]         ********************************************************************************
+[1.543s]         Usage of dash-separated 'script-dir' will not be supported in future
+[1.543s]         versions. Please use the underscore name 'script_dir' instead.
+[1.543s] 
+[1.544s]         This deprecation is overdue, please update your project and remove deprecated
+[1.544s]         calls to avoid build errors in the future.
+[1.544s] 
+[1.544s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[1.544s]         ********************************************************************************
+[1.544s] 
+[1.544s] !!
+[1.544s]   opt = self.warn_dash_deprecation(opt, section)
+[1.719s] running egg_info
+[1.719s] creating ../../build/rover_teleop/rover_teleop.egg-info
+[1.744s] writing ../../build/rover_teleop/rover_teleop.egg-info/PKG-INFO
+[1.744s] writing dependency_links to ../../build/rover_teleop/rover_teleop.egg-info/dependency_links.txt
+[1.744s] writing entry points to ../../build/rover_teleop/rover_teleop.egg-info/entry_points.txt
+[1.744s] writing requirements to ../../build/rover_teleop/rover_teleop.egg-info/requires.txt
+[1.745s] writing top-level names to ../../build/rover_teleop/rover_teleop.egg-info/top_level.txt
+[1.745s] writing manifest file '../../build/rover_teleop/rover_teleop.egg-info/SOURCES.txt'
+[1.796s] reading manifest file '../../build/rover_teleop/rover_teleop.egg-info/SOURCES.txt'
+[1.796s] writing manifest file '../../build/rover_teleop/rover_teleop.egg-info/SOURCES.txt'
+[1.797s] running build
+[1.797s] running build_py
+[1.797s] creating /home/sachin/ros2_rover/build/rover_teleop/build
+[1.797s] creating /home/sachin/ros2_rover/build/rover_teleop/build/lib
+[1.797s] creating /home/sachin/ros2_rover/build/rover_teleop/build/lib/rover_teleop
+[1.798s] copying rover_teleop/__init__.py -> /home/sachin/ros2_rover/build/rover_teleop/build/lib/rover_teleop
+[1.798s] copying rover_teleop/teleop_keyboard_node.py -> /home/sachin/ros2_rover/build/rover_teleop/build/lib/rover_teleop
+[1.798s] running install
+[1.805s] running install_lib
+[1.830s] creating /home/sachin/ros2_rover/install/rover_teleop/lib/python3.12/site-packages/rover_teleop
+[1.830s] copying /home/sachin/ros2_rover/build/rover_teleop/build/lib/rover_teleop/__init__.py -> /home/sachin/ros2_rover/install/rover_teleop/lib/python3.12/site-packages/rover_teleop
+[1.830s] copying /home/sachin/ros2_rover/build/rover_teleop/build/lib/rover_teleop/teleop_keyboard_node.py -> /home/sachin/ros2_rover/install/rover_teleop/lib/python3.12/site-packages/rover_teleop
+[1.831s] byte-compiling /home/sachin/ros2_rover/install/rover_teleop/lib/python3.12/site-packages/rover_teleop/__init__.py to __init__.cpython-312.pyc
+[1.831s] byte-compiling /home/sachin/ros2_rover/install/rover_teleop/lib/python3.12/site-packages/rover_teleop/teleop_keyboard_node.py to teleop_keyboard_node.cpython-312.pyc
+[1.832s] running install_data
+[1.832s] creating /home/sachin/ros2_rover/install/rover_teleop/share/ament_index
+[1.833s] creating /home/sachin/ros2_rover/install/rover_teleop/share/ament_index/resource_index
+[1.833s] creating /home/sachin/ros2_rover/install/rover_teleop/share/ament_index/resource_index/packages
+[1.833s] copying resource/rover_teleop -> /home/sachin/ros2_rover/install/rover_teleop/share/ament_index/resource_index/packages
+[1.833s] copying package.xml -> /home/sachin/ros2_rover/install/rover_teleop/share/rover_teleop
+[1.833s] creating /home/sachin/ros2_rover/install/rover_teleop/share/rover_teleop/launch
+[1.833s] creating /home/sachin/ros2_rover/install/rover_teleop/share/rover_teleop/config
+[1.833s] copying config/ps3.yaml -> /home/sachin/ros2_rover/install/rover_teleop/share/rover_teleop/config/
+[1.834s] running install_egg_info
+[1.859s] Copying ../../build/rover_teleop/rover_teleop.egg-info to /home/sachin/ros2_rover/install/rover_teleop/lib/python3.12/site-packages/rover_teleop-2.0.0-py3.12.egg-info
+[1.860s] running install_scripts
+[2.023s] Installing teleop_keyboard_node script to /home/sachin/ros2_rover/install/rover_teleop/lib/rover_teleop
+[2.023s] writing list of installed files to '/home/sachin/ros2_rover/build/rover_teleop/install.log'
+[2.058s] Invoked command in '/home/sachin/ros2_rover/src/rover_teleop' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.ros2_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/sachin/ros2_rover/build/rover_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sachin/ros2_rover/install/rover_teleop/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.ros2_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rover_teleop build --build-base /home/sachin/ros2_rover/build/rover_teleop/build install --record /home/sachin/ros2_rover/build/rover_teleop/install.log --install-scripts $base/lib/rover_teleop --single-version-externally-managed install_data

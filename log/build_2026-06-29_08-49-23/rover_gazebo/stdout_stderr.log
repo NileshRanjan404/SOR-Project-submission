@@ -1,0 +1,129 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /home/sachin/.ros2_venv/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found nav_msgs: 5.3.7 (/opt/ros/jazzy/share/nav_msgs/cmake)
+-- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found tf2_ros: 0.36.20 (/opt/ros/jazzy/share/tf2_ros/cmake)
+-- Found rover_msgs: 2.0.0 (/home/sachin/ros2_rover/install/rover_msgs/share/rover_msgs/cmake)
+-- Found trajectory_msgs: 5.3.7 (/opt/ros/jazzy/share/trajectory_msgs/cmake)
+-- Configuring done (2.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/sachin/ros2_rover/build/rover_gazebo
+[ 16%] [32mBuilding CXX object CMakeFiles/ground_truth_remapper_node.dir/src/ground_truth_remapper_node.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/motors_command_parser_node.dir/src/motors_command_parser_node.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/odometry_node.dir/src/odometry_node.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable ground_truth_remapper_node[0m
+[ 66%] Built target ground_truth_remapper_node
+[ 83%] [32m[1mLinking CXX executable motors_command_parser_node[0m
+[ 83%] Built target motors_command_parser_node
+[100%] [32m[1mLinking CXX executable odometry_node[0m
+[100%] Built target odometry_node
+-- Install configuration: ""
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/lib/rover_gazebo/motors_command_parser_node
+-- Set non-toolchain portion of runtime path of "/home/sachin/ros2_rover/install/rover_gazebo/lib/rover_gazebo/motors_command_parser_node" to ""
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/lib/rover_gazebo/odometry_node
+-- Set non-toolchain portion of runtime path of "/home/sachin/ros2_rover/install/rover_gazebo/lib/rover_gazebo/odometry_node" to ""
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/lib/rover_gazebo/ground_truth_remapper_node
+-- Set non-toolchain portion of runtime path of "/home/sachin/ros2_rover/install/rover_gazebo/lib/rover_gazebo/ground_truth_remapper_node" to ""
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/launch
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/launch/mars.launch.py
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/launch/gazebo.launch.py
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/launch/include
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/launch/include/cmd_vel.launch.py
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/launch/include/spawn.launch.py
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/worlds
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/worlds/mars.world
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/models
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/curiosity_path
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/curiosity_path/model.sdf
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/curiosity_path/meshes
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/curiosity_path/meshes/mars_texture_lq.jpg
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/curiosity_path/meshes/curiosity_path25k.dae
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/curiosity_path/meshes/curiosity_path25k.stl
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/curiosity_path/model.config
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/rock9
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/rock9/model.sdf
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/rock9/meshes
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/rock9/meshes/rock9.dae
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/rock9/meshes/rock9.stl
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/rock9/meshes/texture.jpg
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/rock9/model.config
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/rockformation
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/rockformation/model.sdf
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/rockformation/meshes
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/rockformation/meshes/rockformation.dae
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/rockformation/meshes/SMALL_RED_BaseColor.png
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/rockformation/model.config
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/jaggedrock
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/jaggedrock/model.sdf
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/jaggedrock/meshes
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/jaggedrock/meshes/jaggedrock_texture.dae
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/jaggedrock/meshes/bumpy.jpg
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/jaggedrock/meshes/basecolor.jpg
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/jaggedrock/model.config
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/mars_terrain
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/mars_terrain/model.sdf
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/mars_terrain/meshes
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/mars_terrain/meshes/mars_texture_lq.jpg
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/mars_terrain/meshes/terrain.stl
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/mars_terrain/meshes/reddish-sand.jpg
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/mars_terrain/meshes/terrain.dae
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/mars_terrain/meshes/mars_texture.jpg
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/mars_terrain/meshes/terrain_textured.dae
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/mars_terrain/model.config
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/terrain
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/terrain/model.sdf
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/terrain/materials
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/terrain/materials/textures
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/terrain/materials/textures/terrain.png
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/terrain/materials/textures/terrain.xcf
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/terrain/model.config
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/crater
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/crater/model.sdf
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/crater/meshes
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/crater/meshes/crater4k.stl
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/crater/meshes/crater_martian_red.dae
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/crater/model.config
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/rviz
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/rviz/default.rviz
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/config
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/config/odometry.yaml
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/config/gz_bridge.yaml
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/environment/gz_sim_resource_path.sh
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/environment/gz_sim_resource_path.dsv
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/ament_index/resource_index/package_run_dependencies/rover_gazebo
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/ament_index/resource_index/parent_prefix_path/rover_gazebo
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/environment/ament_prefix_path.sh
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/environment/ament_prefix_path.dsv
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/environment/path.sh
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/environment/path.dsv
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/local_setup.bash
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/local_setup.sh
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/local_setup.zsh
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/local_setup.dsv
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/package.dsv
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/ament_index/resource_index/packages/rover_gazebo
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/cmake/rover_gazeboConfig.cmake
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/cmake/rover_gazeboConfig-version.cmake
+-- Installing: /home/sachin/ros2_rover/install/rover_gazebo/share/rover_gazebo/package.xml

@@ -1,0 +1,51 @@
+[0.033s] Invoking command in '/home/sachin/ros2_rover/build/rover_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.ros2_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.ros2_venv) /usr/bin/cmake /home/sachin/ros2_rover/src/rover_navigation -DCMAKE_INSTALL_PREFIX=/home/sachin/ros2_rover/install/rover_navigation
+[0.193s] -- The C compiler identification is GNU 13.3.0
+[0.327s] -- The CXX compiler identification is GNU 13.3.0
+[0.351s] -- Detecting C compiler ABI info
+[0.492s] -- Detecting C compiler ABI info - done
+[0.511s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.512s] -- Detecting C compile features
+[0.512s] -- Detecting C compile features - done
+[0.526s] -- Detecting CXX compiler ABI info
+[0.654s] -- Detecting CXX compiler ABI info - done
+[0.665s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.666s] -- Detecting CXX compile features
+[0.666s] -- Detecting CXX compile features - done
+[0.676s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.840s] -- Found Python3: /home/sachin/.ros2_venv/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.153s] -- Configuring done (1.1s)
+[1.156s] -- Generating done (0.0s)
+[1.157s] -- Build files have been written to: /home/sachin/ros2_rover/build/rover_navigation
+[1.164s] Invoked command in '/home/sachin/ros2_rover/build/rover_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.ros2_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.ros2_venv) /usr/bin/cmake /home/sachin/ros2_rover/src/rover_navigation -DCMAKE_INSTALL_PREFIX=/home/sachin/ros2_rover/install/rover_navigation
+[1.165s] Invoking command in '/home/sachin/ros2_rover/build/rover_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.ros2_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.ros2_venv) /usr/bin/cmake --build /home/sachin/ros2_rover/build/rover_navigation -- -j12 -l12
+[1.228s] Invoked command in '/home/sachin/ros2_rover/build/rover_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.ros2_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.ros2_venv) /usr/bin/cmake --build /home/sachin/ros2_rover/build/rover_navigation -- -j12 -l12
+[1.230s] Invoking command in '/home/sachin/ros2_rover/build/rover_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.ros2_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.ros2_venv) /usr/bin/cmake --install /home/sachin/ros2_rover/build/rover_navigation
+[1.239s] -- Install configuration: ""
+[1.239s] -- Installing: /home/sachin/ros2_rover/install/rover_navigation/share/rover_navigation/launch
+[1.239s] -- Installing: /home/sachin/ros2_rover/install/rover_navigation/share/rover_navigation/launch/navigation.launch.py
+[1.240s] -- Installing: /home/sachin/ros2_rover/install/rover_navigation/share/rover_navigation/launch/bringup.launch.py
+[1.241s] -- Installing: /home/sachin/ros2_rover/install/rover_navigation/share/rover_navigation/params
+[1.241s] -- Installing: /home/sachin/ros2_rover/install/rover_navigation/share/rover_navigation/params/SmacHybrid.yaml
+[1.241s] -- Installing: /home/sachin/ros2_rover/install/rover_navigation/share/rover_navigation/params/common.yaml
+[1.241s] -- Installing: /home/sachin/ros2_rover/install/rover_navigation/share/rover_navigation/params/RPP.yaml
+[1.241s] -- Installing: /home/sachin/ros2_rover/install/rover_navigation/share/rover_navigation/params/TEB.yaml
+[1.241s] -- Installing: /home/sachin/ros2_rover/install/rover_navigation/share/rover_navigation/params/costmaps.yaml
+[1.241s] -- Installing: /home/sachin/ros2_rover/install/rover_navigation/share/rover_navigation/params/SmacLattice.yaml
+[1.241s] -- Installing: /home/sachin/ros2_rover/install/rover_navigation/share/rover_navigation/behavior_trees
+[1.241s] -- Installing: /home/sachin/ros2_rover/install/rover_navigation/share/rover_navigation/behavior_trees/rover_bt.xml
+[1.241s] -- Installing: /home/sachin/ros2_rover/install/rover_navigation/share/ament_index/resource_index/package_run_dependencies/rover_navigation
+[1.241s] -- Installing: /home/sachin/ros2_rover/install/rover_navigation/share/ament_index/resource_index/parent_prefix_path/rover_navigation
+[1.242s] -- Installing: /home/sachin/ros2_rover/install/rover_navigation/share/rover_navigation/environment/ament_prefix_path.sh
+[1.242s] -- Installing: /home/sachin/ros2_rover/install/rover_navigation/share/rover_navigation/environment/ament_prefix_path.dsv
+[1.242s] -- Installing: /home/sachin/ros2_rover/install/rover_navigation/share/rover_navigation/environment/path.sh
+[1.242s] -- Installing: /home/sachin/ros2_rover/install/rover_navigation/share/rover_navigation/environment/path.dsv
+[1.242s] -- Installing: /home/sachin/ros2_rover/install/rover_navigation/share/rover_navigation/local_setup.bash
+[1.242s] -- Installing: /home/sachin/ros2_rover/install/rover_navigation/share/rover_navigation/local_setup.sh
+[1.243s] -- Installing: /home/sachin/ros2_rover/install/rover_navigation/share/rover_navigation/local_setup.zsh
+[1.243s] -- Installing: /home/sachin/ros2_rover/install/rover_navigation/share/rover_navigation/local_setup.dsv
+[1.243s] -- Installing: /home/sachin/ros2_rover/install/rover_navigation/share/rover_navigation/package.dsv
+[1.243s] -- Installing: /home/sachin/ros2_rover/install/rover_navigation/share/ament_index/resource_index/packages/rover_navigation
+[1.243s] -- Installing: /home/sachin/ros2_rover/install/rover_navigation/share/rover_navigation/cmake/rover_navigationConfig.cmake
+[1.245s] -- Installing: /home/sachin/ros2_rover/install/rover_navigation/share/rover_navigation/cmake/rover_navigationConfig-version.cmake
+[1.245s] -- Installing: /home/sachin/ros2_rover/install/rover_navigation/share/rover_navigation/package.xml
+[1.271s] Invoked command in '/home/sachin/ros2_rover/build/rover_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.ros2_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.ros2_venv) /usr/bin/cmake --install /home/sachin/ros2_rover/build/rover_navigation
