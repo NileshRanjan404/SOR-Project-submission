@@ -85,13 +85,13 @@ This repository contains several TODOs distributed across different packages. Co
 
 ### 1. Rover Description — `rover_description/robots/rover.urdf.xacro`
 
-**TODO 1 — Configure Wheel Collision Geometry**
+**TODO 1 — Configure Steering Angle Limits**
 
-Complete the collision geometry for the rover wheels so that Gazebo can correctly detect terrain contact during simulation.
+These limits determine how far the front and rear steering wheels are allowed to rotate
 
-**TODO 2 — Configure Wheel Inertial Properties**
+**TODO 2 — Configure Maximum Wheel Speed**
 
-Define the wheel inertial parameters required for realistic physics simulation.
+Defines the minimum and maximum rotational velocity that can be commanded to each drive wheel
 
 ---
 
