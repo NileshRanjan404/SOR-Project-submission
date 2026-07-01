@@ -1,4 +1,4 @@
-# TerraROVER — Autonomous Planetary Exploration Rover
+# TerraROVER — 6-Wheeled Planetary Exploration Rover
 
 ## Problem Statement
 
