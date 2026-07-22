@@ -32,6 +32,60 @@ Honestly this ended up being most of the actual work. A few things were broken i
 
 **The simulation environment itself was slow.** I was running this on software rendering with no real GPU, which made the camera feed too slow for the mapping system to keep up with at first. I tried a few things to work around it, and once the Nav2 crash above was actually fixed, everything ran a lot better anyway.
 
+## What you need installed first
+
+```bash
+sudo apt update
+
+sudo apt install -y \
+  ros-jazzy-ros-gz \
+  ros-jazzy-gz-ros2-control \
+  ros-jazzy-ros2-control \
+  ros-jazzy-ros2-controllers \
+  ros-jazzy-controller-manager \
+  ros-jazzy-robot-state-publisher \
+  ros-jazzy-joint-state-publisher \
+  ros-jazzy-joint-state-publisher-gui \
+  ros-jazzy-xacro \
+  ros-jazzy-robot-localization \
+  ros-jazzy-navigation2 \
+  ros-jazzy-nav2-bringup \
+  ros-jazzy-slam-toolbox \
+  ros-jazzy-rtabmap-ros \
+  ros-jazzy-rviz2 \
+  ros-jazzy-teleop-twist-keyboard \
+  ros-jazzy-teleop-twist-joy
+```
+
+## Required packages
+
+Before building the workspace, install these:
+```bash
+sudo apt update
+
+sudo apt install -y \
+  ros-jazzy-ros-gz \
+  ros-jazzy-gz-ros2-control \
+  ros-jazzy-ros2-control \
+  ros-jazzy-ros2-controllers \
+  ros-jazzy-controller-manager \
+  ros-jazzy-robot-state-publisher \
+  ros-jazzy-joint-state-publisher \
+  ros-jazzy-joint-state-publisher-gui \
+  ros-jazzy-xacro \
+  ros-jazzy-robot-localization \
+  ros-jazzy-navigation2 \
+  ros-jazzy-nav2-bringup \
+  ros-jazzy-slam-toolbox \
+  ros-jazzy-rtabmap-ros \
+  ros-jazzy-rviz2 \
+  ros-jazzy-teleop-twist-keyboard \
+  ros-jazzy-teleop-twist-joy \
+  ros-jazzy-ament-cmake-clang-format
+```
+
+That last one isn't in the original list, I had to add it myself since the motor controller package's build was failing without it.
+
 ## How to run it
 
 Build the workspace first:
