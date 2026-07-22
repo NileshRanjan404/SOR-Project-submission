@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-adf2d09afac32cbc504f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "rover_msgs__py",
+					"jsonFile" : "directory-rover_msgs__py-fa4b60da10fa2116e04c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/ubuntu/ros2_rover/build/rover_msgs/rover_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "rover_msgs__rs",
+					"jsonFile" : "directory-rover_msgs__rs-365385e86dd13327e8b6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/ubuntu/ros2_rover/build/rover_msgs/rover_msgs__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "rover_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_rover_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_rover_msgs_egg-247a39701cc491907edc.json",
+					"name" : "ament_cmake_python_build_rover_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_rover_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_rover_msgs-9a3a1d8b4ae9319c53e8.json",
+					"name" : "ament_cmake_python_copy_rover_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rover_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rover_msgs-d3bf78c1b68be4c716dd.json",
+					"name" : "rover_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rover_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rover_msgs__cpp-556b3f59ba85eb5cd275.json",
+					"name" : "rover_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "rover_msgs__py::@7fd4d0c25b117f40e450",
+					"jsonFile" : "target-rover_msgs__py-fc27a759daae20232e27.json",
+					"name" : "rover_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rover_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rover_msgs__rosidl_generator_c-32df22a7aa7b96ab3e66.json",
+					"name" : "rover_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rover_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rover_msgs__rosidl_generator_py-76e0a8a05f0f5fc7d1ca.json",
+					"name" : "rover_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rover_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rover_msgs__rosidl_generator_type_description-786d3623996e48138f98.json",
+					"name" : "rover_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rover_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rover_msgs__rosidl_typesupport_c-3109e333debb79e71584.json",
+					"name" : "rover_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rover_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rover_msgs__rosidl_typesupport_cpp-96e47a1f4c6c6f782b56.json",
+					"name" : "rover_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rover_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rover_msgs__rosidl_typesupport_fastrtps_c-91b10cfe44710883278a.json",
+					"name" : "rover_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rover_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rover_msgs__rosidl_typesupport_fastrtps_cpp-8fd7d1246ad41cc13f05.json",
+					"name" : "rover_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rover_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rover_msgs__rosidl_typesupport_introspection_c-005fd013fa14047875fe.json",
+					"name" : "rover_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rover_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rover_msgs__rosidl_typesupport_introspection_cpp-33abb8def967d6851369.json",
+					"name" : "rover_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "rover_msgs__rs::@6e518444bdd0ca22184f",
+					"jsonFile" : "target-rover_msgs__rs-86af4a1b19e2f10374ad.json",
+					"name" : "rover_msgs__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rover_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rover_msgs_s__rosidl_typesupport_c-ea67d371e35fd6f4fc54.json",
+					"name" : "rover_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rover_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rover_msgs_s__rosidl_typesupport_fastrtps_c-def1e1546d3ac44c795a.json",
+					"name" : "rover_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rover_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rover_msgs_s__rosidl_typesupport_introspection_c-d8543c7ef35d9b79e845.json",
+					"name" : "rover_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rover_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rover_msgs_uninstall-b302fbb149277c32b4b6.json",
+					"name" : "rover_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-790b784ecad52f18e399.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ubuntu/ros2_rover/build/rover_msgs",
+		"source" : "/home/ubuntu/ros2_rover/src/rover_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,28 @@
+[ 11%] [32mBuilding CXX object CMakeFiles/vel_parser_node.dir/src/motor_controller/vel_parser_node.cpp.o[0m
+[ 77%] Built target controller_node
+[01m[K/home/ubuntu/ros2_rover/src/rover_motor_controller_cpp/src/motor_controller/vel_parser_node.cpp:[m[K In member function ‘[01m[Kvoid motor_controller::VelParserNode::[01;32m[Kcallback[m[K(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/ubuntu/ros2_rover/src/rover_motor_controller_cpp/src/motor_controller/vel_parser_node.cpp:102:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kspeed[m[K’ was not declared in this scope
+  102 |   float norm_speed = this->normalize([01;31m[Kspeed[m[K, -this->linear_limit,
+      |                                      [01;31m[K^~~~~[m[K
+[01m[K/home/ubuntu/ros2_rover/src/rover_motor_controller_cpp/src/motor_controller/vel_parser_node.cpp:104:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kangular[m[K’ was not declared in this scope
+  104 |   float norm_steering = this->normalize([01;31m[Kangular[m[K, -this->angular_limit,
+      |                                         [01;31m[K^~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_rover/src/rover_motor_controller_cpp/src/motor_controller/vel_parser_node.cpp:56:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   56 | void VelParserNode::callback([01;35m[Kconst geometry_msgs::msg::Twist::SharedPtr msg[m[K) {
+      |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/ubuntu/ros2_rover/src/rover_motor_controller_cpp/src/motor_controller/vel_parser_node.cpp:[m[K In member function ‘[01m[Kstd::vector<float> motor_controller::VelParserNode::[01;32m[Kcalculate_target_deg[m[K(float)[m[K’:
+[01m[K/home/ubuntu/ros2_rover/src/rover_motor_controller_cpp/src/motor_controller/vel_parser_node.cpp:280:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kang7[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  280 |   float [01;35m[Kang7[m[K =
+      |         [01;35m[K^~~~[m[K
+[01m[K/home/ubuntu/ros2_rover/src/rover_motor_controller_cpp/src/motor_controller/vel_parser_node.cpp:284:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kang8[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  284 |   float [01;35m[Kang8[m[K =
+      |         [01;35m[K^~~~[m[K
+[01m[K/home/ubuntu/ros2_rover/src/rover_motor_controller_cpp/src/motor_controller/vel_parser_node.cpp:288:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kang9[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  288 |   float [01;35m[Kang9[m[K =
+      |         [01;35m[K^~~~[m[K
+[01m[K/home/ubuntu/ros2_rover/src/rover_motor_controller_cpp/src/motor_controller/vel_parser_node.cpp:292:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kang10[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  292 |   float [01;35m[Kang10[m[K =
+      |         [01;35m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/vel_parser_node.dir/build.make:90: CMakeFiles/vel_parser_node.dir/src/motor_controller/vel_parser_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/vel_parser_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

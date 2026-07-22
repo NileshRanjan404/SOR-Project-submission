@@ -1,0 +1,132 @@
+[0.006s] Invoking command in '/home/ubuntu/ros2_rover/build/rover_motor_controller_cpp': AMENT_PREFIX_PATH=/home/ubuntu/ros2_rover/install/rover_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_rover/install/rover_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/ubuntu/ros2_rover/install/rover_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2_rover/install/rover_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/ros2_rover/src/rover_motor_controller_cpp -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_rover/install/rover_motor_controller_cpp
+[0.013s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.124s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.144s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.148s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.153s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.159s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.186s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.186s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.222s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.250s] -- Found rover_msgs: 2.0.0 (/home/ubuntu/ros2_rover/install/rover_msgs/share/rover_msgs/cmake)
+[0.254s] -- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.274s] -- Found ament_cmake_clang_format: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_clang_format/cmake)
+[0.316s] -- Configuring done (0.3s)
+[0.326s] -- Generating done (0.0s)
+[0.329s] -- Build files have been written to: /home/ubuntu/ros2_rover/build/rover_motor_controller_cpp
+[0.333s] Invoked command in '/home/ubuntu/ros2_rover/build/rover_motor_controller_cpp' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ros2_rover/install/rover_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_rover/install/rover_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/ubuntu/ros2_rover/install/rover_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2_rover/install/rover_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/ros2_rover/src/rover_motor_controller_cpp -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_rover/install/rover_motor_controller_cpp
+[0.333s] Invoking command in '/home/ubuntu/ros2_rover/build/rover_motor_controller_cpp': AMENT_PREFIX_PATH=/home/ubuntu/ros2_rover/install/rover_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_rover/install/rover_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/ubuntu/ros2_rover/install/rover_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2_rover/install/rover_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/ros2_rover/build/rover_motor_controller_cpp -- -j10 -l10
+[0.358s] [ 22%] [32mBuilding CXX object CMakeFiles/controller_node.dir/src/lx16a/lx16a.cpp.o[0m
+[0.358s] [ 22%] [32mBuilding CXX object CMakeFiles/controller_node.dir/src/lx16a/serial.cpp.o[0m
+[0.360s] [ 44%] [32mBuilding CXX object CMakeFiles/vel_parser_node.dir/src/vel_parser_node_main.cpp.o[0m
+[0.360s] [ 44%] [32mBuilding CXX object CMakeFiles/vel_parser_node.dir/src/motor_controller/vel_parser_node.cpp.o[0m
+[0.361s] [ 66%] [32mBuilding CXX object CMakeFiles/controller_node.dir/src/lx16a/motor_controller.cpp.o[0m
+[0.361s] [ 66%] [32mBuilding CXX object CMakeFiles/controller_node.dir/src/controller_node_main.cpp.o[0m
+[0.362s] [ 77%] [32mBuilding CXX object CMakeFiles/controller_node.dir/src/motor_controller/controller_node.cpp.o[0m
+[2.035s] In file included from [01m[K/usr/include/boost/system/detail/requires_cxx11.hpp:9[m[K,
+[2.036s]                  from [01m[K/usr/include/boost/system/detail/config.hpp:11[m[K,
+[2.036s]                  from [01m[K/usr/include/boost/system/detail/error_category.hpp:13[m[K,
+[2.036s]                  from [01m[K/usr/include/boost/system/detail/error_code.hpp:14[m[K,
+[2.036s]                  from [01m[K/usr/include/boost/system/error_code.hpp:13[m[K,
+[2.036s]                  from [01m[K/usr/include/boost/asio/detail/throw_error.hpp:20[m[K,
+[2.036s]                  from [01m[K/usr/include/boost/asio/detail/impl/posix_event.ipp:23[m[K,
+[2.036s]                  from [01m[K/usr/include/boost/asio/detail/posix_event.hpp:172[m[K,
+[2.036s]                  from [01m[K/usr/include/boost/asio/detail/event.hpp:25[m[K,
+[2.036s]                  from [01m[K/usr/include/boost/asio/execution/blocking_adaptation.hpp:19[m[K,
+[2.036s]                  from [01m[K/usr/include/boost/asio/execution.hpp:22[m[K,
+[2.036s]                  from [01m[K/usr/include/boost/asio/any_completion_executor.hpp:22[m[K,
+[2.036s]                  from [01m[K/usr/include/boost/asio.hpp:20[m[K,
+[2.036s]                  from [01m[K/home/ubuntu/ros2_rover/src/rover_motor_controller_cpp/include/lx16a/serial.hpp:28[m[K,
+[2.036s]                  from [01m[K/home/ubuntu/ros2_rover/src/rover_motor_controller_cpp/src/lx16a/serial.cpp:4[m[K:
+[2.036s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[2.036s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[2.036s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[2.069s] In file included from [01m[K/usr/include/boost/system/detail/requires_cxx11.hpp:9[m[K,
+[2.071s]                  from [01m[K/usr/include/boost/system/detail/config.hpp:11[m[K,
+[2.071s]                  from [01m[K/usr/include/boost/system/detail/error_category.hpp:13[m[K,
+[2.071s]                  from [01m[K/usr/include/boost/system/detail/error_code.hpp:14[m[K,
+[2.071s]                  from [01m[K/usr/include/boost/system/error_code.hpp:13[m[K,
+[2.071s]                  from [01m[K/usr/include/boost/asio/detail/throw_error.hpp:20[m[K,
+[2.071s]                  from [01m[K/usr/include/boost/asio/detail/impl/posix_event.ipp:23[m[K,
+[2.072s]                  from [01m[K/usr/include/boost/asio/detail/posix_event.hpp:172[m[K,
+[2.072s]                  from [01m[K/usr/include/boost/asio/detail/event.hpp:25[m[K,
+[2.072s]                  from [01m[K/usr/include/boost/asio/execution/blocking_adaptation.hpp:19[m[K,
+[2.072s]                  from [01m[K/usr/include/boost/asio/execution.hpp:22[m[K,
+[2.072s]                  from [01m[K/usr/include/boost/asio/any_completion_executor.hpp:22[m[K,
+[2.073s]                  from [01m[K/usr/include/boost/asio.hpp:20[m[K,
+[2.073s]                  from [01m[K/home/ubuntu/ros2_rover/src/rover_motor_controller_cpp/include/lx16a/serial.hpp:28[m[K,
+[2.073s]                  from [01m[K/home/ubuntu/ros2_rover/src/rover_motor_controller_cpp/include/lx16a/lx16a.hpp:33[m[K,
+[2.073s]                  from [01m[K/home/ubuntu/ros2_rover/src/rover_motor_controller_cpp/src/lx16a/lx16a.cpp:8[m[K:
+[2.073s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[2.073s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[2.073s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[2.084s] In file included from [01m[K/usr/include/boost/system/detail/requires_cxx11.hpp:9[m[K,
+[2.085s]                  from [01m[K/usr/include/boost/system/detail/config.hpp:11[m[K,
+[2.085s]                  from [01m[K/usr/include/boost/system/detail/error_category.hpp:13[m[K,
+[2.085s]                  from [01m[K/usr/include/boost/system/detail/error_code.hpp:14[m[K,
+[2.085s]                  from [01m[K/usr/include/boost/system/error_code.hpp:13[m[K,
+[2.085s]                  from [01m[K/usr/include/boost/asio/detail/throw_error.hpp:20[m[K,
+[2.085s]                  from [01m[K/usr/include/boost/asio/detail/impl/posix_event.ipp:23[m[K,
+[2.085s]                  from [01m[K/usr/include/boost/asio/detail/posix_event.hpp:172[m[K,
+[2.085s]                  from [01m[K/usr/include/boost/asio/detail/event.hpp:25[m[K,
+[2.085s]                  from [01m[K/usr/include/boost/asio/execution/blocking_adaptation.hpp:19[m[K,
+[2.086s]                  from [01m[K/usr/include/boost/asio/execution.hpp:22[m[K,
+[2.086s]                  from [01m[K/usr/include/boost/asio/any_completion_executor.hpp:22[m[K,
+[2.086s]                  from [01m[K/usr/include/boost/asio.hpp:20[m[K,
+[2.086s]                  from [01m[K/home/ubuntu/ros2_rover/src/rover_motor_controller_cpp/include/lx16a/serial.hpp:28[m[K,
+[2.086s]                  from [01m[K/home/ubuntu/ros2_rover/src/rover_motor_controller_cpp/include/lx16a/lx16a.hpp:33[m[K,
+[2.086s]                  from [01m[K/home/ubuntu/ros2_rover/src/rover_motor_controller_cpp/src/lx16a/motor_controller.cpp:4[m[K:
+[2.086s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[2.086s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[2.086s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[2.107s] [01m[K/home/ubuntu/ros2_rover/src/rover_motor_controller_cpp/src/motor_controller/vel_parser_node.cpp:[m[K In member function ‘[01m[Kvoid motor_controller::VelParserNode::[01;32m[Kcallback[m[K(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.107s] [01m[K/home/ubuntu/ros2_rover/src/rover_motor_controller_cpp/src/motor_controller/vel_parser_node.cpp:102:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kspeed[m[K’ was not declared in this scope
+[2.107s]   102 |   float norm_speed = this->normalize([01;31m[Kspeed[m[K, -this->linear_limit,
+[2.107s]       |                                      [01;31m[K^~~~~[m[K
+[2.117s] [01m[K/home/ubuntu/ros2_rover/src/rover_motor_controller_cpp/src/motor_controller/vel_parser_node.cpp:104:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kangular[m[K’ was not declared in this scope
+[2.117s]   104 |   float norm_steering = this->normalize([01;31m[Kangular[m[K, -this->angular_limit,
+[2.117s]       |                                         [01;31m[K^~~~~~~[m[K
+[2.117s] [01m[K/home/ubuntu/ros2_rover/src/rover_motor_controller_cpp/src/motor_controller/vel_parser_node.cpp:56:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.117s]    56 | void VelParserNode::callback([01;35m[Kconst geometry_msgs::msg::Twist::SharedPtr msg[m[K) {
+[2.117s]       |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[2.119s] [01m[K/home/ubuntu/ros2_rover/src/rover_motor_controller_cpp/src/motor_controller/vel_parser_node.cpp:[m[K In member function ‘[01m[Kstd::vector<float> motor_controller::VelParserNode::[01;32m[Kcalculate_target_deg[m[K(float)[m[K’:
+[2.119s] [01m[K/home/ubuntu/ros2_rover/src/rover_motor_controller_cpp/src/motor_controller/vel_parser_node.cpp:280:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kang7[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.119s]   280 |   float [01;35m[Kang7[m[K =
+[2.119s]       |         [01;35m[K^~~~[m[K
+[2.119s] [01m[K/home/ubuntu/ros2_rover/src/rover_motor_controller_cpp/src/motor_controller/vel_parser_node.cpp:284:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kang8[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.119s]   284 |   float [01;35m[Kang8[m[K =
+[2.119s]       |         [01;35m[K^~~~[m[K
+[2.119s] [01m[K/home/ubuntu/ros2_rover/src/rover_motor_controller_cpp/src/motor_controller/vel_parser_node.cpp:288:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kang9[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.120s]   288 |   float [01;35m[Kang9[m[K =
+[2.120s]       |         [01;35m[K^~~~[m[K
+[2.120s] [01m[K/home/ubuntu/ros2_rover/src/rover_motor_controller_cpp/src/motor_controller/vel_parser_node.cpp:292:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kang10[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.120s]   292 |   float [01;35m[Kang10[m[K =
+[2.120s]       |         [01;35m[K^~~~~[m[K
+[2.983s] In file included from [01m[K/usr/include/boost/system/detail/requires_cxx11.hpp:9[m[K,
+[2.983s]                  from [01m[K/usr/include/boost/system/detail/config.hpp:11[m[K,
+[2.983s]                  from [01m[K/usr/include/boost/system/detail/error_category.hpp:13[m[K,
+[2.983s]                  from [01m[K/usr/include/boost/system/detail/error_code.hpp:14[m[K,
+[2.983s]                  from [01m[K/usr/include/boost/system/error_code.hpp:13[m[K,
+[2.983s]                  from [01m[K/usr/include/boost/asio/detail/throw_error.hpp:20[m[K,
+[2.983s]                  from [01m[K/usr/include/boost/asio/detail/impl/posix_event.ipp:23[m[K,
+[2.983s]                  from [01m[K/usr/include/boost/asio/detail/posix_event.hpp:172[m[K,
+[2.983s]                  from [01m[K/usr/include/boost/asio/detail/event.hpp:25[m[K,
+[2.983s]                  from [01m[K/usr/include/boost/asio/execution/blocking_adaptation.hpp:19[m[K,
+[2.983s]                  from [01m[K/usr/include/boost/asio/execution.hpp:22[m[K,
+[2.983s]                  from [01m[K/usr/include/boost/asio/any_completion_executor.hpp:22[m[K,
+[2.983s]                  from [01m[K/usr/include/boost/asio.hpp:20[m[K,
+[2.983s]                  from [01m[K/home/ubuntu/ros2_rover/src/rover_motor_controller_cpp/include/lx16a/serial.hpp:28[m[K,
+[2.983s]                  from [01m[K/home/ubuntu/ros2_rover/src/rover_motor_controller_cpp/include/lx16a/lx16a.hpp:33[m[K,
+[2.983s]                  from [01m[K/home/ubuntu/ros2_rover/src/rover_motor_controller_cpp/include/lx16a/motor_controller.hpp:31[m[K,
+[2.983s]                  from [01m[K/home/ubuntu/ros2_rover/src/rover_motor_controller_cpp/include/motor_controller/controller_node.hpp:8[m[K,
+[2.983s]                  from [01m[K/home/ubuntu/ros2_rover/src/rover_motor_controller_cpp/src/controller_node_main.cpp:3[m[K:
+[2.983s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[2.983s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[2.983s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[3.232s] gmake[2]: *** [CMakeFiles/vel_parser_node.dir/build.make:90: CMakeFiles/vel_parser_node.dir/src/motor_controller/vel_parser_node.cpp.o] Error 1
+[3.232s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/vel_parser_node.dir/all] Error 2
+[3.232s] gmake[1]: *** Waiting for unfinished jobs....
+[4.823s] [ 88%] [32m[1mLinking CXX executable controller_node[0m
+[4.980s] [ 88%] Built target controller_node
+[4.980s] gmake: *** [Makefile:146: all] Error 2
+[4.983s] Invoked command in '/home/ubuntu/ros2_rover/build/rover_motor_controller_cpp' returned '2': AMENT_PREFIX_PATH=/home/ubuntu/ros2_rover/install/rover_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_rover/install/rover_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/ubuntu/ros2_rover/install/rover_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2_rover/install/rover_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/ros2_rover/build/rover_motor_controller_cpp -- -j10 -l10

@@ -1,0 +1,26 @@
+[ 11%] [32mBuilding CXX object CMakeFiles/vel_parser_node.dir/src/motor_controller/vel_parser_node.cpp.o[0m
+[ 77%] Built target controller_node
+[ 88%] [32m[1mLinking CXX executable vel_parser_node[0m
+[100%] Built target vel_parser_node
+-- Install configuration: ""
+-- Installing: /home/ubuntu/ros2_rover/install/rover_motor_controller_cpp/lib/rover_motor_controller_cpp/controller_node
+-- Set non-toolchain portion of runtime path of "/home/ubuntu/ros2_rover/install/rover_motor_controller_cpp/lib/rover_motor_controller_cpp/controller_node" to ""
+-- Installing: /home/ubuntu/ros2_rover/install/rover_motor_controller_cpp/lib/rover_motor_controller_cpp/vel_parser_node
+-- Set non-toolchain portion of runtime path of "/home/ubuntu/ros2_rover/install/rover_motor_controller_cpp/lib/rover_motor_controller_cpp/vel_parser_node" to ""
+-- Installing: /home/ubuntu/ros2_rover/install/rover_motor_controller_cpp/share/rover_motor_controller_cpp//launch
+-- Installing: /home/ubuntu/ros2_rover/install/rover_motor_controller_cpp/share/rover_motor_controller_cpp//launch/motor_controller.launch.py
+-- Installing: /home/ubuntu/ros2_rover/install/rover_motor_controller_cpp/share/ament_index/resource_index/package_run_dependencies/rover_motor_controller_cpp
+-- Installing: /home/ubuntu/ros2_rover/install/rover_motor_controller_cpp/share/ament_index/resource_index/parent_prefix_path/rover_motor_controller_cpp
+-- Installing: /home/ubuntu/ros2_rover/install/rover_motor_controller_cpp/share/rover_motor_controller_cpp/environment/ament_prefix_path.sh
+-- Installing: /home/ubuntu/ros2_rover/install/rover_motor_controller_cpp/share/rover_motor_controller_cpp/environment/ament_prefix_path.dsv
+-- Installing: /home/ubuntu/ros2_rover/install/rover_motor_controller_cpp/share/rover_motor_controller_cpp/environment/path.sh
+-- Installing: /home/ubuntu/ros2_rover/install/rover_motor_controller_cpp/share/rover_motor_controller_cpp/environment/path.dsv
+-- Installing: /home/ubuntu/ros2_rover/install/rover_motor_controller_cpp/share/rover_motor_controller_cpp/local_setup.bash
+-- Installing: /home/ubuntu/ros2_rover/install/rover_motor_controller_cpp/share/rover_motor_controller_cpp/local_setup.sh
+-- Installing: /home/ubuntu/ros2_rover/install/rover_motor_controller_cpp/share/rover_motor_controller_cpp/local_setup.zsh
+-- Installing: /home/ubuntu/ros2_rover/install/rover_motor_controller_cpp/share/rover_motor_controller_cpp/local_setup.dsv
+-- Installing: /home/ubuntu/ros2_rover/install/rover_motor_controller_cpp/share/rover_motor_controller_cpp/package.dsv
+-- Installing: /home/ubuntu/ros2_rover/install/rover_motor_controller_cpp/share/ament_index/resource_index/packages/rover_motor_controller_cpp
+-- Installing: /home/ubuntu/ros2_rover/install/rover_motor_controller_cpp/share/rover_motor_controller_cpp/cmake/rover_motor_controller_cppConfig.cmake
+-- Installing: /home/ubuntu/ros2_rover/install/rover_motor_controller_cpp/share/rover_motor_controller_cpp/cmake/rover_motor_controller_cppConfig-version.cmake
+-- Installing: /home/ubuntu/ros2_rover/install/rover_motor_controller_cpp/share/rover_motor_controller_cpp/package.xml

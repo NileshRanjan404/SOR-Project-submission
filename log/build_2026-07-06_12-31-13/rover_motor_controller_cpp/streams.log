@@ -1,0 +1,46 @@
+[0.006s] Invoking command in '/home/ubuntu/ros2_rover/build/rover_motor_controller_cpp': AMENT_PREFIX_PATH=/home/ubuntu/ros2_rover/install/rover_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_rover/install/rover_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/ubuntu/ros2_rover/install/rover_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2_rover/install/rover_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/ros2_rover/src/rover_motor_controller_cpp -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_rover/install/rover_motor_controller_cpp
+[0.031s] -- The C compiler identification is GNU 13.3.0
+[0.056s] -- The CXX compiler identification is GNU 13.3.0
+[0.062s] -- Detecting C compiler ABI info
+[0.098s] -- Detecting C compiler ABI info - done
+[0.103s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.103s] -- Detecting C compile features
+[0.103s] -- Detecting C compile features - done
+[0.107s] -- Detecting CXX compiler ABI info
+[0.147s] -- Detecting CXX compiler ABI info - done
+[0.151s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.151s] -- Detecting CXX compile features
+[0.152s] -- Detecting CXX compile features - done
+[0.156s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.229s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.308s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.355s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.368s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.382s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.398s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.466s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.471s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.531s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.541s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.552s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.611s] -- Found rover_msgs: 2.0.0 (/home/ubuntu/ros2_rover/install/rover_msgs/share/rover_msgs/cmake)
+[0.619s] -- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.664s] [31mCMake Error at CMakeLists.txt:63 (find_package):
+[0.664s]   By not providing "Findament_cmake_clang_format.cmake" in CMAKE_MODULE_PATH
+[0.664s]   this project has asked CMake to find a package configuration file provided
+[0.664s]   by "ament_cmake_clang_format", but CMake did not find one.
+[0.664s] 
+[0.664s]   Could not find a package configuration file provided by
+[0.664s]   "ament_cmake_clang_format" with any of the following names:
+[0.664s] 
+[0.664s]     ament_cmake_clang_formatConfig.cmake
+[0.664s]     ament_cmake_clang_format-config.cmake
+[0.664s] 
+[0.664s]   Add the installation prefix of "ament_cmake_clang_format" to
+[0.664s]   CMAKE_PREFIX_PATH or set "ament_cmake_clang_format_DIR" to a directory
+[0.664s]   containing one of the above files.  If "ament_cmake_clang_format" provides
+[0.664s]   a separate development package or SDK, be sure it has been installed.
+[0.664s] 
+[0.664s] [0m
+[0.664s] -- Configuring incomplete, errors occurred!
+[0.668s] Invoked command in '/home/ubuntu/ros2_rover/build/rover_motor_controller_cpp' returned '1': AMENT_PREFIX_PATH=/home/ubuntu/ros2_rover/install/rover_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_rover/install/rover_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/ubuntu/ros2_rover/install/rover_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2_rover/install/rover_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/ros2_rover/src/rover_motor_controller_cpp -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_rover/install/rover_motor_controller_cpp

@@ -1,0 +1,37 @@
+[0.428s] Invoking command in '/home/ubuntu/ros2_rover/src/rover_motor_controller': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_rover/install/rover_msgs:/home/ubuntu/ros2_rover/install/rover_navigation:/home/ubuntu/ros2_rover/install/rover_gazebo:/home/ubuntu/ros2_rover/install/rover_motor_controller_cpp:/home/ubuntu/ros2_rover/install/rover_localization:/home/ubuntu/ros2_rover/install/rover_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor PYTHONPATH=/home/ubuntu/ros2_rover/build/rover_motor_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_rover/install/rover_motor_controller/lib/python3.12/site-packages:/home/ubuntu/ros2_rover/install/rover_msgs/lib/python3.12/site-packages:/home/ubuntu/ros2_rover/install/rover_teleop/lib/python3.12/site-packages:/home/ubuntu/ros2_rover/install/rover_motor_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rover_motor_controller build --build-base /home/ubuntu/ros2_rover/build/rover_motor_controller/build install --record /home/ubuntu/ros2_rover/build/rover_motor_controller/install.log --install-scripts $base/lib/rover_motor_controller --single-version-externally-managed install_data
+[0.485s] /usr/lib/python3/dist-packages/setuptools/dist.py:744: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[0.485s] !!
+[0.485s] 
+[0.485s]         ********************************************************************************
+[0.485s]         Usage of dash-separated 'script-dir' will not be supported in future
+[0.485s]         versions. Please use the underscore name 'script_dir' instead.
+[0.485s] 
+[0.485s]         This deprecation is overdue, please update your project and remove deprecated
+[0.485s]         calls to avoid build errors in the future.
+[0.485s] 
+[0.485s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[0.485s]         ********************************************************************************
+[0.485s] 
+[0.485s] !!
+[0.485s]   opt = self.warn_dash_deprecation(opt, section)
+[0.538s] running egg_info
+[0.545s] writing ../../build/rover_motor_controller/rover_motor_controller.egg-info/PKG-INFO
+[0.545s] writing dependency_links to ../../build/rover_motor_controller/rover_motor_controller.egg-info/dependency_links.txt
+[0.545s] writing entry points to ../../build/rover_motor_controller/rover_motor_controller.egg-info/entry_points.txt
+[0.546s] writing requirements to ../../build/rover_motor_controller/rover_motor_controller.egg-info/requires.txt
+[0.546s] writing top-level names to ../../build/rover_motor_controller/rover_motor_controller.egg-info/top_level.txt
+[0.561s] reading manifest file '../../build/rover_motor_controller/rover_motor_controller.egg-info/SOURCES.txt'
+[0.561s] writing manifest file '../../build/rover_motor_controller/rover_motor_controller.egg-info/SOURCES.txt'
+[0.561s] running build
+[0.561s] running build_py
+[0.561s] running install
+[0.564s] running install_lib
+[0.572s] running install_data
+[0.572s] running install_egg_info
+[0.580s] removing '/home/ubuntu/ros2_rover/install/rover_motor_controller/lib/python3.12/site-packages/rover_motor_controller-2.0.0-py3.12.egg-info' (and everything under it)
+[0.580s] Copying ../../build/rover_motor_controller/rover_motor_controller.egg-info to /home/ubuntu/ros2_rover/install/rover_motor_controller/lib/python3.12/site-packages/rover_motor_controller-2.0.0-py3.12.egg-info
+[0.581s] running install_scripts
+[0.641s] Installing controller_node script to /home/ubuntu/ros2_rover/install/rover_motor_controller/lib/rover_motor_controller
+[0.642s] Installing vel_parser_node script to /home/ubuntu/ros2_rover/install/rover_motor_controller/lib/rover_motor_controller
+[0.642s] writing list of installed files to '/home/ubuntu/ros2_rover/build/rover_motor_controller/install.log'
+[0.656s] Invoked command in '/home/ubuntu/ros2_rover/src/rover_motor_controller' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_rover/install/rover_msgs:/home/ubuntu/ros2_rover/install/rover_navigation:/home/ubuntu/ros2_rover/install/rover_gazebo:/home/ubuntu/ros2_rover/install/rover_motor_controller_cpp:/home/ubuntu/ros2_rover/install/rover_localization:/home/ubuntu/ros2_rover/install/rover_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor PYTHONPATH=/home/ubuntu/ros2_rover/build/rover_motor_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_rover/install/rover_motor_controller/lib/python3.12/site-packages:/home/ubuntu/ros2_rover/install/rover_msgs/lib/python3.12/site-packages:/home/ubuntu/ros2_rover/install/rover_teleop/lib/python3.12/site-packages:/home/ubuntu/ros2_rover/install/rover_motor_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rover_motor_controller build --build-base /home/ubuntu/ros2_rover/build/rover_motor_controller/build install --record /home/ubuntu/ros2_rover/build/rover_motor_controller/install.log --install-scripts $base/lib/rover_motor_controller --single-version-externally-managed install_data

@@ -98,6 +98,18 @@ void VelParserNode::callback(const geometry_msgs::msg::Twist::SharedPtr msg) {
   // ==========================================================
 
   // YOUR CODE HERE
+  float linear = std::min(std::max(static_cast<float>(msg->linear.x),
+                                 -this->linear_limit),
+                        this->linear_limit);
+  float angular = std::min(std::max(static_cast<float>(msg->angular.z),
+                                  -this->angular_limit),
+                         this->angular_limit);
+
+  float speed = sqrt(pow(linear, 2) + pow(angular * this->angular_factor, 2));
+  if (linear < 0) {
+    speed = -speed;
+  }
+
 
   float norm_speed = this->normalize(speed, -this->linear_limit,
                                      this->linear_limit, -100, 100);
@@ -200,6 +212,9 @@ if (abs(radius) <= 5) {
     // ==========================================================
 
     // YOUR CODE HERE
+    new_velocity = {velocity, velocity, velocity,
+                -velocity, -velocity, -velocity};
+
 
   } else {
     // Get radius in centimeters(MAX_RADIUS(255) to MIN_RADIUS(55))
@@ -334,6 +349,12 @@ std::vector<float> VelParserNode::calculate_target_deg(float radius) {
   // ==========================================================
 
   // YOUR CODE HERE
+  if (radius < 0) {
+    angles = {-ang8, ang7, -ang10, ang9};
+  } else {
+    angles = {ang7, -ang8, ang9, -ang10};
+  }
+
 
   return angles;
 }

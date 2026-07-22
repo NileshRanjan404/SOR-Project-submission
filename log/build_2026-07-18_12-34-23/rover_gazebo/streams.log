@@ -1,0 +1,135 @@
+[0.006s] Invoking command in '/home/ubuntu/ros2_rover/build/rover_gazebo': AMENT_PREFIX_PATH=/home/ubuntu/ros2_rover/install/rover_motor_controller_cpp:/home/ubuntu/ros2_rover/install/rover_msgs:/home/ubuntu/ros2_rover/install/rover_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_rover/install/rover_motor_controller_cpp:/home/ubuntu/ros2_rover/install/rover_msgs:/home/ubuntu/ros2_rover/install/rover_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/ubuntu/ros2_rover/install/rover_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2_rover/install/rover_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/ros2_rover/src/rover_gazebo -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_rover/install/rover_gazebo
+[0.063s] -- The C compiler identification is GNU 13.3.0
+[0.088s] -- The CXX compiler identification is GNU 13.3.0
+[0.096s] -- Detecting C compiler ABI info
+[0.135s] -- Detecting C compiler ABI info - done
+[0.139s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.139s] -- Detecting C compile features
+[0.140s] -- Detecting C compile features - done
+[0.144s] -- Detecting CXX compiler ABI info
+[0.181s] -- Detecting CXX compiler ABI info - done
+[0.185s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.185s] -- Detecting CXX compile features
+[0.186s] -- Detecting CXX compile features - done
+[0.210s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.282s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.368s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.425s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.439s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.458s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.475s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.539s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.543s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.616s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.634s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.644s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.706s] -- Found nav_msgs: 5.3.8 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.745s] -- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.764s] -- Found tf2_ros: 0.36.21 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[0.873s] -- Found rover_msgs: 2.0.0 (/home/ubuntu/ros2_rover/install/rover_msgs/share/rover_msgs/cmake)
+[0.882s] -- Found trajectory_msgs: 5.3.8 (/opt/ros/jazzy/share/trajectory_msgs/cmake)
+[0.930s] -- Configuring done (0.9s)
+[0.940s] -- Generating done (0.0s)
+[0.943s] -- Build files have been written to: /home/ubuntu/ros2_rover/build/rover_gazebo
+[0.948s] Invoked command in '/home/ubuntu/ros2_rover/build/rover_gazebo' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ros2_rover/install/rover_motor_controller_cpp:/home/ubuntu/ros2_rover/install/rover_msgs:/home/ubuntu/ros2_rover/install/rover_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_rover/install/rover_motor_controller_cpp:/home/ubuntu/ros2_rover/install/rover_msgs:/home/ubuntu/ros2_rover/install/rover_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/ubuntu/ros2_rover/install/rover_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2_rover/install/rover_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/ros2_rover/src/rover_gazebo -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_rover/install/rover_gazebo
+[0.949s] Invoking command in '/home/ubuntu/ros2_rover/build/rover_gazebo': AMENT_PREFIX_PATH=/home/ubuntu/ros2_rover/install/rover_motor_controller_cpp:/home/ubuntu/ros2_rover/install/rover_msgs:/home/ubuntu/ros2_rover/install/rover_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_rover/install/rover_motor_controller_cpp:/home/ubuntu/ros2_rover/install/rover_msgs:/home/ubuntu/ros2_rover/install/rover_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/ubuntu/ros2_rover/install/rover_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2_rover/install/rover_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/ros2_rover/build/rover_gazebo -- -j10 -l10
+[0.969s] [ 50%] [32mBuilding CXX object CMakeFiles/odometry_node.dir/src/odometry_node.cpp.o[0m
+[0.969s] [ 50%] [32mBuilding CXX object CMakeFiles/ground_truth_remapper_node.dir/src/ground_truth_remapper_node.cpp.o[0m
+[0.969s] [ 50%] [32mBuilding CXX object CMakeFiles/motors_command_parser_node.dir/src/motors_command_parser_node.cpp.o[0m
+[4.097s] [ 66%] [32m[1mLinking CXX executable ground_truth_remapper_node[0m
+[4.245s] [ 66%] Built target ground_truth_remapper_node
+[4.280s] [ 83%] [32m[1mLinking CXX executable motors_command_parser_node[0m
+[4.431s] [ 83%] Built target motors_command_parser_node
+[4.552s] [100%] [32m[1mLinking CXX executable odometry_node[0m
+[4.731s] [100%] Built target odometry_node
+[4.739s] Invoked command in '/home/ubuntu/ros2_rover/build/rover_gazebo' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ros2_rover/install/rover_motor_controller_cpp:/home/ubuntu/ros2_rover/install/rover_msgs:/home/ubuntu/ros2_rover/install/rover_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_rover/install/rover_motor_controller_cpp:/home/ubuntu/ros2_rover/install/rover_msgs:/home/ubuntu/ros2_rover/install/rover_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/ubuntu/ros2_rover/install/rover_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2_rover/install/rover_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/ros2_rover/build/rover_gazebo -- -j10 -l10
+[4.741s] Invoking command in '/home/ubuntu/ros2_rover/build/rover_gazebo': AMENT_PREFIX_PATH=/home/ubuntu/ros2_rover/install/rover_motor_controller_cpp:/home/ubuntu/ros2_rover/install/rover_msgs:/home/ubuntu/ros2_rover/install/rover_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_rover/install/rover_motor_controller_cpp:/home/ubuntu/ros2_rover/install/rover_msgs:/home/ubuntu/ros2_rover/install/rover_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/ubuntu/ros2_rover/install/rover_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2_rover/install/rover_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/ros2_rover/build/rover_gazebo
+[4.746s] -- Install configuration: ""
+[4.746s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/lib/rover_gazebo/motors_command_parser_node
+[4.748s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/ros2_rover/install/rover_gazebo/lib/rover_gazebo/motors_command_parser_node" to ""
+[4.748s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/lib/rover_gazebo/odometry_node
+[4.750s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/ros2_rover/install/rover_gazebo/lib/rover_gazebo/odometry_node" to ""
+[4.750s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/lib/rover_gazebo/ground_truth_remapper_node
+[4.751s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/ros2_rover/install/rover_gazebo/lib/rover_gazebo/ground_truth_remapper_node" to ""
+[4.751s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/launch
+[4.751s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/launch/gazebo.launch.py
+[4.751s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/launch/include
+[4.751s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/launch/include/spawn.launch.py
+[4.751s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/launch/include/cmd_vel.launch.py
+[4.752s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/launch/mars.launch.py
+[4.752s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/worlds
+[4.752s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/worlds/mars.world
+[4.752s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/models
+[4.752s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/rock9
+[4.752s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/rock9/model.sdf
+[4.752s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/rock9/meshes
+[4.752s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/rock9/meshes/rock9.stl
+[4.754s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/rock9/meshes/texture.jpg
+[4.755s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/rock9/meshes/rock9.dae
+[4.759s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/rock9/model.config
+[4.759s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/jaggedrock
+[4.759s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/jaggedrock/model.sdf
+[4.759s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/jaggedrock/meshes
+[4.759s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/jaggedrock/meshes/basecolor.jpg
+[4.759s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/jaggedrock/meshes/jaggedrock_texture.dae
+[4.761s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/jaggedrock/meshes/bumpy.jpg
+[4.762s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/jaggedrock/model.config
+[4.762s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/rockformation
+[4.762s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/rockformation/model.sdf
+[4.763s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/rockformation/meshes
+[4.763s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/rockformation/meshes/SMALL_RED_BaseColor.png
+[4.764s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/rockformation/meshes/rockformation.dae
+[4.765s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/rockformation/model.config
+[4.766s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/mars_terrain
+[4.766s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/mars_terrain/model.sdf
+[4.766s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/mars_terrain/meshes
+[4.766s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/mars_terrain/meshes/mars_texture.jpg
+[4.767s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/mars_terrain/meshes/terrain.dae
+[4.769s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/mars_terrain/meshes/terrain.stl
+[4.772s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/mars_terrain/meshes/terrain_textured.dae
+[4.773s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/mars_terrain/meshes/mars_texture_lq.jpg
+[4.774s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/mars_terrain/meshes/reddish-sand.jpg
+[4.775s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/mars_terrain/model.config
+[4.775s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/curiosity_path
+[4.775s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/curiosity_path/model.sdf
+[4.775s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/curiosity_path/meshes
+[4.775s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/curiosity_path/meshes/mars_texture_lq.jpg
+[4.775s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/curiosity_path/meshes/curiosity_path25k.stl
+[4.777s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/curiosity_path/meshes/curiosity_path25k.dae
+[4.784s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/curiosity_path/model.config
+[4.784s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/crater
+[4.784s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/crater/model.sdf
+[4.784s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/crater/meshes
+[4.784s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/crater/meshes/crater4k.stl
+[4.785s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/crater/meshes/crater_martian_red.dae
+[4.786s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/crater/model.config
+[4.786s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/terrain
+[4.786s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/terrain/model.sdf
+[4.786s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/terrain/model.config
+[4.786s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/terrain/materials
+[4.787s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/terrain/materials/textures
+[4.787s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/terrain/materials/textures/terrain.png
+[4.787s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/models/terrain/materials/textures/terrain.xcf
+[4.787s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/rviz
+[4.787s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/rviz/default.rviz
+[4.787s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/config
+[4.787s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/config/gz_bridge.yaml
+[4.788s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/config/odometry.yaml
+[4.788s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/environment/gz_sim_resource_path.sh
+[4.788s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/environment/gz_sim_resource_path.dsv
+[4.788s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/ament_index/resource_index/package_run_dependencies/rover_gazebo
+[4.788s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/ament_index/resource_index/parent_prefix_path/rover_gazebo
+[4.788s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/environment/ament_prefix_path.sh
+[4.788s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/environment/ament_prefix_path.dsv
+[4.788s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/environment/path.sh
+[4.788s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/environment/path.dsv
+[4.789s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/local_setup.bash
+[4.789s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/local_setup.sh
+[4.789s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/local_setup.zsh
+[4.789s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/local_setup.dsv
+[4.789s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/package.dsv
+[4.789s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/ament_index/resource_index/packages/rover_gazebo
+[4.789s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/cmake/rover_gazeboConfig.cmake
+[4.789s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/cmake/rover_gazeboConfig-version.cmake
+[4.789s] -- Installing: /home/ubuntu/ros2_rover/install/rover_gazebo/share/rover_gazebo/package.xml
+[4.791s] Invoked command in '/home/ubuntu/ros2_rover/build/rover_gazebo' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ros2_rover/install/rover_motor_controller_cpp:/home/ubuntu/ros2_rover/install/rover_msgs:/home/ubuntu/ros2_rover/install/rover_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_rover/install/rover_motor_controller_cpp:/home/ubuntu/ros2_rover/install/rover_msgs:/home/ubuntu/ros2_rover/install/rover_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/ubuntu/ros2_rover/install/rover_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2_rover/install/rover_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/ros2_rover/build/rover_gazebo

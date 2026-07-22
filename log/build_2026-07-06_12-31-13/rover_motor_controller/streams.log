@@ -1,0 +1,83 @@
+[0.338s] Invoking command in '/home/ubuntu/ros2_rover/src/rover_motor_controller': AMENT_PREFIX_PATH=/home/ubuntu/ros2_rover/install/rover_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_rover/install/rover_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ubuntu/ros2_rover/install/rover_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2_rover/build/rover_motor_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_rover/install/rover_motor_controller/lib/python3.12/site-packages:/home/ubuntu/ros2_rover/install/rover_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rover_motor_controller build --build-base /home/ubuntu/ros2_rover/build/rover_motor_controller/build install --record /home/ubuntu/ros2_rover/build/rover_motor_controller/install.log --install-scripts $base/lib/rover_motor_controller --single-version-externally-managed install_data
+[0.390s] /usr/lib/python3/dist-packages/setuptools/dist.py:744: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[0.390s] !!
+[0.390s] 
+[0.390s]         ********************************************************************************
+[0.390s]         Usage of dash-separated 'script-dir' will not be supported in future
+[0.390s]         versions. Please use the underscore name 'script_dir' instead.
+[0.390s] 
+[0.390s]         This deprecation is overdue, please update your project and remove deprecated
+[0.390s]         calls to avoid build errors in the future.
+[0.390s] 
+[0.390s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[0.390s]         ********************************************************************************
+[0.390s] 
+[0.390s] !!
+[0.390s]   opt = self.warn_dash_deprecation(opt, section)
+[0.443s] running egg_info
+[0.444s] creating ../../build/rover_motor_controller/rover_motor_controller.egg-info
+[0.451s] writing ../../build/rover_motor_controller/rover_motor_controller.egg-info/PKG-INFO
+[0.451s] writing dependency_links to ../../build/rover_motor_controller/rover_motor_controller.egg-info/dependency_links.txt
+[0.451s] writing entry points to ../../build/rover_motor_controller/rover_motor_controller.egg-info/entry_points.txt
+[0.451s] writing requirements to ../../build/rover_motor_controller/rover_motor_controller.egg-info/requires.txt
+[0.451s] writing top-level names to ../../build/rover_motor_controller/rover_motor_controller.egg-info/top_level.txt
+[0.451s] writing manifest file '../../build/rover_motor_controller/rover_motor_controller.egg-info/SOURCES.txt'
+[0.466s] reading manifest file '../../build/rover_motor_controller/rover_motor_controller.egg-info/SOURCES.txt'
+[0.467s] writing manifest file '../../build/rover_motor_controller/rover_motor_controller.egg-info/SOURCES.txt'
+[0.467s] running build
+[0.467s] running build_py
+[0.467s] creating /home/ubuntu/ros2_rover/build/rover_motor_controller/build
+[0.467s] creating /home/ubuntu/ros2_rover/build/rover_motor_controller/build/lib
+[0.467s] creating /home/ubuntu/ros2_rover/build/rover_motor_controller/build/lib/rover_motor_controller
+[0.467s] copying rover_motor_controller/vel_parser_node_main.py -> /home/ubuntu/ros2_rover/build/rover_motor_controller/build/lib/rover_motor_controller
+[0.467s] copying rover_motor_controller/controller_node_main.py -> /home/ubuntu/ros2_rover/build/rover_motor_controller/build/lib/rover_motor_controller
+[0.467s] copying rover_motor_controller/__init__.py -> /home/ubuntu/ros2_rover/build/rover_motor_controller/build/lib/rover_motor_controller
+[0.467s] creating /home/ubuntu/ros2_rover/build/rover_motor_controller/build/lib/rover_motor_controller/motor_controller
+[0.467s] copying rover_motor_controller/motor_controller/controller_node.py -> /home/ubuntu/ros2_rover/build/rover_motor_controller/build/lib/rover_motor_controller/motor_controller
+[0.467s] copying rover_motor_controller/motor_controller/__init__.py -> /home/ubuntu/ros2_rover/build/rover_motor_controller/build/lib/rover_motor_controller/motor_controller
+[0.467s] copying rover_motor_controller/motor_controller/vel_parser_node.py -> /home/ubuntu/ros2_rover/build/rover_motor_controller/build/lib/rover_motor_controller/motor_controller
+[0.467s] creating /home/ubuntu/ros2_rover/build/rover_motor_controller/build/lib/rover_motor_controller/lx16a
+[0.467s] copying rover_motor_controller/lx16a/motor_controller.py -> /home/ubuntu/ros2_rover/build/rover_motor_controller/build/lib/rover_motor_controller/lx16a
+[0.467s] copying rover_motor_controller/lx16a/lx16a_consts.py -> /home/ubuntu/ros2_rover/build/rover_motor_controller/build/lib/rover_motor_controller/lx16a
+[0.467s] copying rover_motor_controller/lx16a/__init__.py -> /home/ubuntu/ros2_rover/build/rover_motor_controller/build/lib/rover_motor_controller/lx16a
+[0.467s] copying rover_motor_controller/lx16a/lx16a.py -> /home/ubuntu/ros2_rover/build/rover_motor_controller/build/lib/rover_motor_controller/lx16a
+[0.468s] running install
+[0.470s] running install_lib
+[0.478s] creating /home/ubuntu/ros2_rover/install/rover_motor_controller/lib/python3.12/site-packages/rover_motor_controller
+[0.478s] copying /home/ubuntu/ros2_rover/build/rover_motor_controller/build/lib/rover_motor_controller/vel_parser_node_main.py -> /home/ubuntu/ros2_rover/install/rover_motor_controller/lib/python3.12/site-packages/rover_motor_controller
+[0.478s] copying /home/ubuntu/ros2_rover/build/rover_motor_controller/build/lib/rover_motor_controller/controller_node_main.py -> /home/ubuntu/ros2_rover/install/rover_motor_controller/lib/python3.12/site-packages/rover_motor_controller
+[0.478s] creating /home/ubuntu/ros2_rover/install/rover_motor_controller/lib/python3.12/site-packages/rover_motor_controller/motor_controller
+[0.478s] copying /home/ubuntu/ros2_rover/build/rover_motor_controller/build/lib/rover_motor_controller/motor_controller/controller_node.py -> /home/ubuntu/ros2_rover/install/rover_motor_controller/lib/python3.12/site-packages/rover_motor_controller/motor_controller
+[0.478s] copying /home/ubuntu/ros2_rover/build/rover_motor_controller/build/lib/rover_motor_controller/motor_controller/__init__.py -> /home/ubuntu/ros2_rover/install/rover_motor_controller/lib/python3.12/site-packages/rover_motor_controller/motor_controller
+[0.478s] copying /home/ubuntu/ros2_rover/build/rover_motor_controller/build/lib/rover_motor_controller/motor_controller/vel_parser_node.py -> /home/ubuntu/ros2_rover/install/rover_motor_controller/lib/python3.12/site-packages/rover_motor_controller/motor_controller
+[0.478s] creating /home/ubuntu/ros2_rover/install/rover_motor_controller/lib/python3.12/site-packages/rover_motor_controller/lx16a
+[0.478s] copying /home/ubuntu/ros2_rover/build/rover_motor_controller/build/lib/rover_motor_controller/lx16a/motor_controller.py -> /home/ubuntu/ros2_rover/install/rover_motor_controller/lib/python3.12/site-packages/rover_motor_controller/lx16a
+[0.478s] copying /home/ubuntu/ros2_rover/build/rover_motor_controller/build/lib/rover_motor_controller/lx16a/lx16a_consts.py -> /home/ubuntu/ros2_rover/install/rover_motor_controller/lib/python3.12/site-packages/rover_motor_controller/lx16a
+[0.478s] copying /home/ubuntu/ros2_rover/build/rover_motor_controller/build/lib/rover_motor_controller/lx16a/__init__.py -> /home/ubuntu/ros2_rover/install/rover_motor_controller/lib/python3.12/site-packages/rover_motor_controller/lx16a
+[0.478s] copying /home/ubuntu/ros2_rover/build/rover_motor_controller/build/lib/rover_motor_controller/lx16a/lx16a.py -> /home/ubuntu/ros2_rover/install/rover_motor_controller/lib/python3.12/site-packages/rover_motor_controller/lx16a
+[0.478s] copying /home/ubuntu/ros2_rover/build/rover_motor_controller/build/lib/rover_motor_controller/__init__.py -> /home/ubuntu/ros2_rover/install/rover_motor_controller/lib/python3.12/site-packages/rover_motor_controller
+[0.479s] byte-compiling /home/ubuntu/ros2_rover/install/rover_motor_controller/lib/python3.12/site-packages/rover_motor_controller/vel_parser_node_main.py to vel_parser_node_main.cpython-312.pyc
+[0.479s] byte-compiling /home/ubuntu/ros2_rover/install/rover_motor_controller/lib/python3.12/site-packages/rover_motor_controller/controller_node_main.py to controller_node_main.cpython-312.pyc
+[0.479s] byte-compiling /home/ubuntu/ros2_rover/install/rover_motor_controller/lib/python3.12/site-packages/rover_motor_controller/motor_controller/controller_node.py to controller_node.cpython-312.pyc
+[0.479s] byte-compiling /home/ubuntu/ros2_rover/install/rover_motor_controller/lib/python3.12/site-packages/rover_motor_controller/motor_controller/__init__.py to __init__.cpython-312.pyc
+[0.479s] byte-compiling /home/ubuntu/ros2_rover/install/rover_motor_controller/lib/python3.12/site-packages/rover_motor_controller/motor_controller/vel_parser_node.py to vel_parser_node.cpython-312.pyc
+[0.480s] byte-compiling /home/ubuntu/ros2_rover/install/rover_motor_controller/lib/python3.12/site-packages/rover_motor_controller/lx16a/motor_controller.py to motor_controller.cpython-312.pyc
+[0.480s] byte-compiling /home/ubuntu/ros2_rover/install/rover_motor_controller/lib/python3.12/site-packages/rover_motor_controller/lx16a/lx16a_consts.py to lx16a_consts.cpython-312.pyc
+[0.481s] byte-compiling /home/ubuntu/ros2_rover/install/rover_motor_controller/lib/python3.12/site-packages/rover_motor_controller/lx16a/__init__.py to __init__.cpython-312.pyc
+[0.481s] byte-compiling /home/ubuntu/ros2_rover/install/rover_motor_controller/lib/python3.12/site-packages/rover_motor_controller/lx16a/lx16a.py to lx16a.cpython-312.pyc
+[0.482s] byte-compiling /home/ubuntu/ros2_rover/install/rover_motor_controller/lib/python3.12/site-packages/rover_motor_controller/__init__.py to __init__.cpython-312.pyc
+[0.482s] running install_data
+[0.482s] creating /home/ubuntu/ros2_rover/install/rover_motor_controller/share/ament_index
+[0.482s] creating /home/ubuntu/ros2_rover/install/rover_motor_controller/share/ament_index/resource_index
+[0.482s] creating /home/ubuntu/ros2_rover/install/rover_motor_controller/share/ament_index/resource_index/packages
+[0.482s] copying resource/rover_motor_controller -> /home/ubuntu/ros2_rover/install/rover_motor_controller/share/ament_index/resource_index/packages
+[0.482s] copying package.xml -> /home/ubuntu/ros2_rover/install/rover_motor_controller/share/rover_motor_controller
+[0.482s] creating /home/ubuntu/ros2_rover/install/rover_motor_controller/share/rover_motor_controller/launch
+[0.483s] copying launch/motor_controller.launch.py -> /home/ubuntu/ros2_rover/install/rover_motor_controller/share/rover_motor_controller/launch/
+[0.483s] running install_egg_info
+[0.491s] Copying ../../build/rover_motor_controller/rover_motor_controller.egg-info to /home/ubuntu/ros2_rover/install/rover_motor_controller/lib/python3.12/site-packages/rover_motor_controller-2.0.0-py3.12.egg-info
+[0.491s] running install_scripts
+[0.548s] Installing controller_node script to /home/ubuntu/ros2_rover/install/rover_motor_controller/lib/rover_motor_controller
+[0.549s] Installing vel_parser_node script to /home/ubuntu/ros2_rover/install/rover_motor_controller/lib/rover_motor_controller
+[0.549s] writing list of installed files to '/home/ubuntu/ros2_rover/build/rover_motor_controller/install.log'
+[0.562s] Invoked command in '/home/ubuntu/ros2_rover/src/rover_motor_controller' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ros2_rover/install/rover_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_rover/install/rover_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ubuntu/ros2_rover/install/rover_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2_rover/build/rover_motor_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_rover/install/rover_motor_controller/lib/python3.12/site-packages:/home/ubuntu/ros2_rover/install/rover_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rover_motor_controller build --build-base /home/ubuntu/ros2_rover/build/rover_motor_controller/build install --record /home/ubuntu/ros2_rover/build/rover_motor_controller/install.log --install-scripts $base/lib/rover_motor_controller --single-version-externally-managed install_data

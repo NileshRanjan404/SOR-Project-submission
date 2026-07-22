@@ -1,0 +1,37 @@
+[0.374s] Invoking command in '/home/ubuntu/ros2_rover/src/rover_motor_controller': AMENT_PREFIX_PATH=/home/ubuntu/ros2_rover/install/rover_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_rover/install/rover_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ubuntu/ros2_rover/install/rover_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2_rover/build/rover_motor_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_rover/install/rover_motor_controller/lib/python3.12/site-packages:/home/ubuntu/ros2_rover/install/rover_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rover_motor_controller build --build-base /home/ubuntu/ros2_rover/build/rover_motor_controller/build install --record /home/ubuntu/ros2_rover/build/rover_motor_controller/install.log --install-scripts $base/lib/rover_motor_controller --single-version-externally-managed install_data
+[0.423s] /usr/lib/python3/dist-packages/setuptools/dist.py:744: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[0.423s] !!
+[0.423s] 
+[0.423s]         ********************************************************************************
+[0.423s]         Usage of dash-separated 'script-dir' will not be supported in future
+[0.423s]         versions. Please use the underscore name 'script_dir' instead.
+[0.423s] 
+[0.423s]         This deprecation is overdue, please update your project and remove deprecated
+[0.423s]         calls to avoid build errors in the future.
+[0.423s] 
+[0.423s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[0.423s]         ********************************************************************************
+[0.423s] 
+[0.423s] !!
+[0.423s]   opt = self.warn_dash_deprecation(opt, section)
+[0.474s] running egg_info
+[0.481s] writing ../../build/rover_motor_controller/rover_motor_controller.egg-info/PKG-INFO
+[0.481s] writing dependency_links to ../../build/rover_motor_controller/rover_motor_controller.egg-info/dependency_links.txt
+[0.481s] writing entry points to ../../build/rover_motor_controller/rover_motor_controller.egg-info/entry_points.txt
+[0.481s] writing requirements to ../../build/rover_motor_controller/rover_motor_controller.egg-info/requires.txt
+[0.481s] writing top-level names to ../../build/rover_motor_controller/rover_motor_controller.egg-info/top_level.txt
+[0.496s] reading manifest file '../../build/rover_motor_controller/rover_motor_controller.egg-info/SOURCES.txt'
+[0.497s] writing manifest file '../../build/rover_motor_controller/rover_motor_controller.egg-info/SOURCES.txt'
+[0.497s] running build
+[0.497s] running build_py
+[0.497s] running install
+[0.500s] running install_lib
+[0.507s] running install_data
+[0.507s] running install_egg_info
+[0.514s] removing '/home/ubuntu/ros2_rover/install/rover_motor_controller/lib/python3.12/site-packages/rover_motor_controller-2.0.0-py3.12.egg-info' (and everything under it)
+[0.515s] Copying ../../build/rover_motor_controller/rover_motor_controller.egg-info to /home/ubuntu/ros2_rover/install/rover_motor_controller/lib/python3.12/site-packages/rover_motor_controller-2.0.0-py3.12.egg-info
+[0.515s] running install_scripts
+[0.571s] Installing controller_node script to /home/ubuntu/ros2_rover/install/rover_motor_controller/lib/rover_motor_controller
+[0.571s] Installing vel_parser_node script to /home/ubuntu/ros2_rover/install/rover_motor_controller/lib/rover_motor_controller
+[0.571s] writing list of installed files to '/home/ubuntu/ros2_rover/build/rover_motor_controller/install.log'
+[0.583s] Invoked command in '/home/ubuntu/ros2_rover/src/rover_motor_controller' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ros2_rover/install/rover_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_rover/install/rover_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ubuntu/ros2_rover/install/rover_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2_rover/build/rover_motor_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_rover/install/rover_motor_controller/lib/python3.12/site-packages:/home/ubuntu/ros2_rover/install/rover_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rover_motor_controller build --build-base /home/ubuntu/ros2_rover/build/rover_motor_controller/build install --record /home/ubuntu/ros2_rover/build/rover_motor_controller/install.log --install-scripts $base/lib/rover_motor_controller --single-version-externally-managed install_data
